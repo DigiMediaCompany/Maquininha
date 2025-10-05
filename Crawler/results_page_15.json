@@ -1,0 +1,1943 @@
+[
+  {
+    "thumbnail": "https://www.maquininha.com.br/wp-content/uploads/2020/01/Recusas-de-Transacao-de-Cartao-Erros-Comuns-e-Solucoes-Rapidas-1.jpg",
+    "category": "Educacional",
+    "link": "https://www.maquininha.com.br/recusas-de-cartao-de-credito/",
+    "title": "Recusas de transação de cartão: Erros comuns e soluções rápidas",
+    "metadata": "19 abr 2025 • 12 min",
+    "content": [
+      {
+        "type": "paragraph",
+        "text": "Recusas de cartão de crédito ocorrem quando a transação de pagamento não pode ser processada."
+      },
+      {
+        "type": "paragraph",
+        "text": "Há várias razões para isso: uma recusa do processador de pagamento, do gateway de pagamento ou (mais comumente) do banco emissor, também conhecido como erro 96 no cartão."
+      },
+      {
+        "type": "paragraph",
+        "text": "Associado ao pagamento recusado, há um código de falha e um motivo fornecido ao comerciante."
+      },
+      {
+        "type": "paragraph",
+        "text": "Quer evitar problemas de transações recusadas? Descubra as melhores maquininhas de cartão que garantem segurança e eficiência no processamento de pagamentos para seu negócio!"
+      },
+      {
+        "type": "h2",
+        "text": "Principais motivos de recusas de cartão de crédito"
+      },
+      {
+        "type": "paragraph",
+        "text": "Existem três fontes principais que podem recusar uma transação: o Banco Emissor, o Processador de Pagamento e o Gateway de Pagamento."
+      },
+      {
+        "type": "paragraph",
+        "text": "Cada um tem um papel específico e pode interferir na aprovação das transações por diferentes razões. Entender a causa do erro pode ajudar a tomar a ação correta para evitar futuras recusas."
+      },
+      {
+        "type": "paragraph",
+        "text": "O banco emissor é a instituição financeira que emite o cartão de crédito para o cliente, sendo responsável por validar a transação com base no histórico financeiro do titular, limite disponível e políticas de segurança. A recusa pelo banco emissor geralmente acontece por:"
+      },
+      {
+        "type": "list-ul",
+        "items": [
+          "Falta de Limite de Crédito: o cliente ultrapassou o limite disponível no cartão, conhecido também como erro 12.",
+          "Suspeita de Fraude: o banco detecta uma atividade incomum e bloqueia a transação como medida preventiva.",
+          "Cartão Expirado ou Cancelado: o cartão está vencido ou foi desativado por solicitação do titular ou do próprio banco."
+        ]
+      },
+      {
+        "type": "paragraph",
+        "text": "O processador de pagamento é um serviço terceirizado que gerencia as transações para os comerciantes. Ele lida com a autenticação do pagamento e verifica se a transação está dentro dos parâmetros estabelecidos pelo comerciante e pelas bandeiras de cartão."
+      },
+      {
+        "type": "paragraph",
+        "text": "As recusas de transações pelo processador podem ser causadas por:"
+      },
+      {
+        "type": "list-ul",
+        "items": [
+          "Erro na Configuração de Pagamento: o tipo de transação não é suportado ou está configurado incorretamente;",
+          "Limite de Transações Excedido: alguns processadores impõem limites de volume ou valor para evitar fraudes;",
+          "Falha no Sistema: problemas técnicos, como quedas de servidor, podem impedir o processamento da transação."
+        ]
+      },
+      {
+        "type": "paragraph",
+        "text": "O gateway de pagamento é o sistema que transmite os dados da transação do terminal do comerciante para o processador de pagamento."
+      },
+      {
+        "type": "paragraph",
+        "text": "Ele desempenha um papel crucial na segurança e validação dos dados. Motivos comuns de recusa incluem:"
+      },
+      {
+        "type": "list-ul",
+        "items": [
+          "Falha na Conexão com o Terminal: problemas de comunicação entre o terminal de pagamento e o gateway podem interromper a transação;",
+          "Dados de Pagamento Inválidos: informações incorretas ou incompletas enviadas ao gateway, como número de cartão ou código CVV, podem resultar em recusa;",
+          "Regras de Segurança Rígidas: alguns gateways possuem filtros de segurança que bloqueiam transações suspeitas automaticamente."
+        ]
+      },
+      {
+        "type": "paragraph",
+        "text": "Ao receber um código de erro, identifique a origem da recusa para agir de maneira eficaz. Se necessário, converse com o cliente para esclarecer questões de limite ou verificação e ajuste as configurações de processamento e gateway para otimizar o fluxo de pagamento."
+      },
+      {
+        "type": "paragraph",
+        "text": "Cansado de lidar com recusas de pagamento? Conheça nossas maquininhas de cartão recomendadas com tecnologia avançada para evitar erros comuns e manter suas vendas em alta."
+      },
+      {
+        "type": "h2",
+        "text": "Glossário de termos comuns no processamento de pagamentos"
+      },
+      {
+        "type": "paragraph",
+        "text": "Este glossário ajuda a entender alguns dos principais termos envolvidos no processamento de pagamentos."
+      },
+      {
+        "type": "paragraph",
+        "text": "Compreender essas definições pode facilitar a comunicação com bancos e provedores de pagamento, bem como ajudar a identificar e resolver problemas rapidamente."
+      },
+      {
+        "type": "paragraph",
+        "text": "A instituição financeira que emite o cartão de crédito ou débito ao cliente, responsável por aprovar ou recusar transações com base nas políticas internas de segurança, limite de crédito e histórico financeiro do titular."
+      },
+      {
+        "type": "paragraph",
+        "text": "Não deve ser confundido com a bandeira do cartão, que é a rede que facilita a transação (como Visa, Mastercard, etc.)."
+      },
+      {
+        "type": "paragraph",
+        "text": "Refere-se ao cliente que possui o cartão e está autorizado a utilizá-lo para compras. O titular é a pessoa cujo nome aparece no cartão e que tem a responsabilidade de efetuar os pagamentos. Em transações presenciais, a validação do titular é feita por meio de senha ou assinatura."
+      },
+      {
+        "type": "paragraph",
+        "text": "Também chamado de máquina de cartão, ponto de venda (POS) ou terminal EFTPOS, é o dispositivo usado para processar pagamentos eletrônicos."
+      },
+      {
+        "type": "paragraph",
+        "text": "Ele faz a leitura dos dados do cartão e se comunica com o gateway de pagamento e o processador para concluir a transação."
+      },
+      {
+        "type": "paragraph",
+        "text": "O processador de pagamento é o intermediário que executa a transação entre o comerciante e o banco emissor do cliente."
+      },
+      {
+        "type": "paragraph",
+        "text": "Ele verifica e autoriza o pagamento, assegurando que a transferência de fundos ocorra de maneira segura. Normalmente, comerciantes contratam processadores para gerenciar pagamentos com cartão, oferecendo suporte a várias formas de pagamento, como crédito, débito e Pix."
+      },
+      {
+        "type": "paragraph",
+        "text": "O gateway é o sistema de comunicação que conecta o terminal de pagamento do comerciante ao processador de pagamento."
+      },
+      {
+        "type": "paragraph",
+        "text": "Ele transmite os dados de forma criptografada para proteger informações sensíveis, como número de cartão e CVV, evitando fraudes."
+      },
+      {
+        "type": "paragraph",
+        "text": "Em transações online, o gateway também verifica se os dados do cartão são válidos antes de enviar para o processador."
+      },
+      {
+        "type": "paragraph",
+        "text": "O Número de Identificação do Cartão (CID) é um código de segurança impresso no cartão."
+      },
+      {
+        "type": "paragraph",
+        "text": "Para cartões Visa, Mastercard e Discover, é um código de três dígitos localizado no painel de assinatura na parte de trás do cartão. No American Express, o CID possui quatro dígitos e está na frente do cartão. Esse número é usado para validar transações e aumentar a segurança contra fraudes."
+      },
+      {
+        "type": "paragraph",
+        "text": "O Valor de Verificação do Cartão é um código de segurança adicional embutido no chip do cartão."
+      },
+      {
+        "type": "paragraph",
+        "text": "O CVV é lido automaticamente durante transações em terminais presenciais (POS), enquanto o CVV2 é impresso no cartão e utilizado em compras online para verificar que o cliente está com o cartão em mãos."
+      },
+      {
+        "type": "paragraph",
+        "text": "Esses códigos são essenciais para reduzir fraudes e assegurar a identidade do titular."
+      },
+      {
+        "type": "paragraph",
+        "text": "Com este glossário, você está mais preparado para entender e resolver problemas que podem surgir no processamento de pagamentos."
+      },
+      {
+        "type": "paragraph",
+        "text": "Saber o que cada termo significa ajuda a agilizar a comunicação com o banco emissor ou o processador, resultando em transações mais seguras e fluidas."
+      },
+      {
+        "type": "h2",
+        "text": "Códigos de erro comuns e como corrigir"
+      },
+      {
+        "type": "paragraph",
+        "text": "Ao processar uma transação com cartão de crédito, é comum que erros ocorram devido a diversos fatores, como dados incorretos ou falhas de comunicação."
+      },
+      {
+        "type": "paragraph",
+        "text": "Abaixo, veja uma lista dos códigos de erro mais comuns, suas possíveis causas e o que fazer para resolver cada um:"
+      },
+      {
+        "type": "list-ul",
+        "items": [
+          "Definição: Transação não suportada ou inválida;",
+          "Causa Comum: Tentativa de realizar uma ação, como reembolso, em uma transação que não permite esse tipo de operação;",
+          "Ação Recomendada: Verifique o tipo de transação e ajuste os detalhes conforme necessário. Após corrigir, tente processar o pagamento novamente."
+        ]
+      },
+      {
+        "type": "list-ul",
+        "items": [
+          "Definição: Valor da transação é inválido (ex.: negativo ou não numérico);",
+          "Causa Comum: O valor inserido é incorreto, como valores negativos ou em um formato não numérico;",
+          "Ação Recomendada: Ajuste o valor da transação para um número positivo e tente novamente."
+        ]
+      },
+      {
+        "type": "list-ul",
+        "items": [
+          "Definição: Número do cartão inserido é inválido;",
+          "Causa Comum: Digitação incorreta do número do cartão ou cartão expirado;",
+          "Ação Recomendada: Revise o número do cartão e corrija eventuais erros. Em caso de pagamentos recorrentes, interrompa tentativas até que o número seja corrigido, pois cada tentativa incorreta pode gerar uma taxa."
+        ]
+      },
+      {
+        "type": "list-ul",
+        "items": [
+          "Definição: Erro desconhecido durante a transação;",
+          "Causa Comum: Falha temporária ou erro no sistema de pagamento;",
+          "Ação Recomendada: Tente a transação novamente. Se o erro persistir, entre em contato com o Provedor de Serviços de Pagamento (PSP) para suporte."
+        ]
+      },
+      {
+        "type": "list-ul",
+        "items": [
+          "Definição: O sistema do banco emissor não pôde autorizar a transação;",
+          "Causa Comum: Problema de comunicação temporário com o banco emissor;",
+          "Ação Recomendada: Espere alguns minutos e tente novamente. Caso o problema persista, consulte o suporte do provedor de pagamento."
+        ]
+      },
+      {
+        "type": "list-ul",
+        "items": [
+          "Definição: Erro de autorização sem problema detectado no cartão;",
+          "Causa Comum: Um problema de comunicação temporário impediu a autorização da transação;",
+          "Ação Recomendada: Tente processar a transação novamente. Se o erro continuar, entre em contato com o provedor para suporte."
+        ]
+      },
+      {
+        "type": "list-ul",
+        "items": [
+          "Definição: Falha temporária no sistema do terminal ou do processador;",
+          "Causa Comum: Problema de funcionamento no terminal de pagamento ou servidor;",
+          "Ação Recomendada: Reinicie o terminal e tente a transação novamente. Se o problema persistir, entre em contato com o suporte técnico do provedor de terminal."
+        ]
+      },
+      {
+        "type": "list-ul",
+        "items": [
+          "Definição: Erro de verificação do tipo de cartão, relacionado ao CID ou CVV2;",
+          "Causa Comum: O código de segurança (CID ou CVV2) inserido não corresponde ao registrado no banco emissor;",
+          "Ação Recomendada: Solicite o código correto ao cliente e, se necessário, tente processar a transação sem o CID ou CVV2. Caso o problema continue, entre em contato com o provedor para verificar se há problemas na configuração da conta."
+        ]
+      },
+      {
+        "type": "paragraph",
+        "text": "Não deixe que problemas de transação prejudiquem suas vendas! Escolha uma máquina de cartão com menor taxa e suporte completo. Confira as opções!"
+      },
+      {
+        "type": "h2",
+        "text": "Perguntas frequentes"
+      },
+      {
+        "type": "h2",
+        "text": "Maximize suas vendas resolvendo erros de transação"
+      },
+      {
+        "type": "paragraph",
+        "text": "Erros de transação são mais que meros contratempos; eles podem impactar diretamente as vendas e a satisfação dos clientes."
+      },
+      {
+        "type": "paragraph",
+        "text": "Ao conhecer os códigos de erro e saber como corrigi-los, você minimiza recusas e evita a perda de vendas."
+      },
+      {
+        "type": "paragraph",
+        "text": "Aqui estão algumas dicas para otimizar o processamento de pagamentos e assegurar uma experiência de compra tranquila para seus clientes:"
+      },
+      {
+        "type": "paragraph",
+        "text": "Atualizações de sistema e configurações erradas podem gerar falhas frequentes. Realize uma manutenção periódica nos terminais e confirme que o processador está ajustado às suas necessidades de transação. Essa prática reduz a ocorrência de erros técnicos e melhora a eficiência das transações."
+      },
+      {
+        "type": "paragraph",
+        "text": "Tecnologia ultrapassada ou maquininhas não confiáveis podem aumentar as chances de erro. Considere investir em um terminal moderno que ofereça taxas de aprovação mais altas e um suporte técnico de qualidade."
+      },
+      {
+        "type": "paragraph",
+        "text": "Documente os códigos de erro mais comuns e as ações corretivas. Isso permite que sua equipe identifique padrões e aja rapidamente quando um erro semelhante ocorrer. Além disso, o feedback dos clientes sobre problemas recorrentes ajuda a identificar ajustes necessários no sistema."
+      },
+      {
+        "type": "paragraph",
+        "text": "Uma equipe treinada sabe como reagir imediatamente quando um erro de transação acontece. Capacite seus funcionários para identificar os códigos de erro e aplicar as soluções corretas, evitando que o cliente tenha uma experiência negativa."
+      },
+      {
+        "type": "paragraph",
+        "text": "Se a transação não puder ser concluída com o cartão, ofereça outras opções de pagamento, como Pix ou transferência bancária. Ter alternativas prontamente disponíveis ajuda a evitar perdas de venda no momento da compra."
+      },
+      {
+        "type": "paragraph",
+        "text": "Ao adotar essas práticas e manter-se informado sobre os códigos de erro, você consegue transformar potenciais problemas em oportunidades de melhorar o atendimento."
+      },
+      {
+        "type": "paragraph",
+        "text": "Com um sistema de pagamento otimizado, suas chances de vender mais aumentam, e seus clientes terão uma experiência de compra mais satisfatória."
+      }
+    ]
+  },
+  {
+    "thumbnail": "https://www.maquininha.com.br/wp-content/uploads/2018/09/imagem-destaque-maquininha-ideal-como-saber-quais-bandeiras-maquina-cartao-aceita-3-1.png",
+    "category": "Bandeiras",
+    "link": "https://www.maquininha.com.br/como-saber-quais-bandeiras-maquina-cartao-aceita/",
+    "title": "Veja como saber quais bandeiras sua máquina de cartão aceita",
+    "metadata": "19 abr 2025 • 4 min",
+    "content": [
+      {
+        "type": "paragraph",
+        "text": "Se você está se perguntando como saber quais bandeiras sua máquina de cartão aceita, saiba que essa é uma dúvida comum entre empreendedores que desejam oferecer mais opções de pagamento aos clientes."
+      },
+      {
+        "type": "paragraph",
+        "text": "Conhecer essas informações pode evitar constrangimentos na hora da venda e, mais importante, aumentar suas chances de fechar negócios."
+      },
+      {
+        "type": "paragraph",
+        "text": "Continue lendo!"
+      },
+      {
+        "type": "h2",
+        "text": "Passo a passo para saber quais bandeiras sua máquina aceita"
+      },
+      {
+        "type": "paragraph",
+        "text": "Siga as dicas abaixo para entender como funciona:"
+      },
+      {
+        "type": "paragraph",
+        "text": "O primeiro passo para descobrir quais bandeiras sua máquina aceita é consultar o manual do equipamento."
+      },
+      {
+        "type": "paragraph",
+        "text": "Lá, normalmente, consta a lista completa de bandeiras de cartões de crédito e débito compatíveis. Além disso, a maioria das maquininhas atuais possui um aplicativo vinculado, que exibe todas as informações detalhadas sobre o funcionamento do aparelho, incluindo as bandeiras ativadas."
+      },
+      {
+        "type": "paragraph",
+        "text": "Outra maneira eficiente de confirmar as bandeiras aceitas é acessando o portal do cliente da empresa responsável pela maquininha."
+      },
+      {
+        "type": "paragraph",
+        "text": "Com login e senha, você pode visualizar relatórios, ativar novas funções e conferir quais bandeiras estão disponíveis."
+      },
+      {
+        "type": "paragraph",
+        "text": "Caso ainda reste dúvida, entrar em contato direto com o suporte da operadora é uma opção rápida e segura."
+      },
+      {
+        "type": "paragraph",
+        "text": "Alguns modelos de maquininhas exibem no visor ou na tela inicial as principais bandeiras compatíveis, como Visa, MasterCard, Elo e Hipercard."
+      },
+      {
+        "type": "paragraph",
+        "text": "Esse recurso facilita a verificação no dia a dia, principalmente para quem trabalha com atendimento direto ao cliente e precisa de respostas rápidas."
+      },
+      {
+        "type": "paragraph",
+        "text": "Nem sempre todas as bandeiras vêm ativadas de fábrica. Por isso, vale a pena verificar se existe a opção de ativar novas bandeiras conforme a demanda do seu negócio."
+      },
+      {
+        "type": "paragraph",
+        "text": "Em muitos casos, essa solicitação pode ser feita diretamente pelo app ou portal da maquininha, sem burocracia."
+      },
+      {
+        "type": "h2",
+        "text": "Por que todos os cartões de crédito não são aceitos em todos os lugares?"
+      },
+      {
+        "type": "paragraph",
+        "text": "Nem todos os cartões de crédito são aceitos em todos os lugares porque cada bandeira tem acordos diferentes com as operadoras de maquininhas."
+      },
+      {
+        "type": "paragraph",
+        "text": "Algumas bandeiras cobram taxas mais altas, o que pode levar o lojista a optar por não ativá-las. Além disso, nem todas as maquininhas vêm com todas as bandeiras habilitadas por padrão."
+      },
+      {
+        "type": "paragraph",
+        "text": "Por isso, a aceitação varia de acordo com o custo-benefício e a demanda dos clientes de cada negócio."
+      },
+      {
+        "type": "h2",
+        "text": "Como saber quais bandeiras uma empresa aceita?"
+      },
+      {
+        "type": "paragraph",
+        "text": "Para saber quais bandeiras uma empresa aceita, você pode perguntar diretamente ao atendente, observar adesivos próximos ao caixa ou conferir no visor da maquininha."
+      },
+      {
+        "type": "paragraph",
+        "text": "Muitos estabelecimentos também informam isso nas redes sociais, no site ou na página do Google. Em compras online, verifique os ícones das bandeiras durante o checkout."
+      },
+      {
+        "type": "paragraph",
+        "text": "Se restar dúvida, mande uma mensagem ou ligue — a maioria das empresas responde rápido."
+      },
+      {
+        "type": "paragraph",
+        "text": "Veja também: PagSeguro: Como receber pagamentos rápido?"
+      },
+      {
+        "type": "h2",
+        "text": "Dúvidas Frequentes sobre Bandeiras de Cartão"
+      },
+      {
+        "type": "h2",
+        "text": "Por que é importante saber quais as bandeiras de cartão de crédito são aceitas?"
+      },
+      {
+        "type": "paragraph",
+        "text": "Entender quais as bandeiras de cartão de crédito são aceitas pela sua maquininha é essencial para garantir o bom funcionamento do seu negócio."
+      },
+      {
+        "type": "paragraph",
+        "text": "Afinal, cada cliente pode ter um cartão de bandeira diferente — e, se a sua máquina não aceitar aquele tipo específico, você corre o risco de perder uma venda na hora."
+      },
+      {
+        "type": "paragraph",
+        "text": "Além disso, quando você conhece as bandeiras compatíveis com o seu equipamento, consegue se preparar melhor para oferecer um atendimento completo."
+      },
+      {
+        "type": "paragraph",
+        "text": "Isso passa mais confiança ao cliente e mostra que sua empresa está pronta para atender diferentes perfis de consumidores, independentemente do banco ou instituição financeira que emitiram o cartão."
+      },
+      {
+        "type": "paragraph",
+        "text": "Continue lendo: Como saber a bandeira do cartão pelo número?"
+      }
+    ]
+  },
+  {
+    "thumbnail": "https://www.maquininha.com.br/wp-content/uploads/2025/04/imagem-destaque-maquininha-ideal-como-trocar-senha-aplicativo-pagbank-2-1.png",
+    "category": "Educacional",
+    "link": "https://www.maquininha.com.br/como-trocar-senha-do-aplicativo-pagbank/",
+    "title": "Como trocar a senha do aplicativo PagBank: Passo a passo simples",
+    "metadata": "18 abr 2025 • 2 min",
+    "content": [
+      {
+        "type": "paragraph",
+        "text": "Saber como trocar a senha do aplicativo PagBank é essencial para manter sua conta segura e proteger seus dados financeiros."
+      },
+      {
+        "type": "paragraph",
+        "text": "Se você usa o app do PagBank para movimentações, investimentos ou até para gerenciar sua maquininha de cartão, manter uma senha forte e atualizada é fundamental."
+      },
+      {
+        "type": "paragraph",
+        "text": "Felizmente, o processo é rápido e pode ser feito diretamente pelo celular, sem complicações. Continue lendo!"
+      },
+      {
+        "type": "h2",
+        "text": "Maquininhas PagBank"
+      },
+      {
+        "type": "table",
+        "headers": [
+          "",
+          "Máquina",
+          "Valor",
+          "Débito",
+          "Crédito (1x)",
+          "Crédito (12x)",
+          ""
+        ],
+        "rows": [
+          [
+            "Minizinha NFC 2 4.9 Valor R$ 16,68 à vista ou 12x de R$ 1,39 Débito A partir de 1,99% Crédito (1x) A partir de 3,19% Crédito (12x) A partir de 3,79% Peça agora URL Verificada",
+            "Minizinha NFC 2 4.9",
+            "R$ 16,68 à vista ou 12x de R$ 1,39",
+            "A partir de 1,99%",
+            "A partir de 3,19%",
+            "A partir de 3,79%",
+            "Peça agora URL Verificada"
+          ],
+          [
+            "Moderninha Pro 2 4.9 Valor R$ 226,80 à vista ou 12x de R$ 18,90 Débito A partir de 1,99% Crédito (1x) A partir de 3,19% Crédito (12x) A partir de 3,79% Peça agora URL Verificada",
+            "Moderninha Pro 2 4.9",
+            "R$ 226,80 à vista ou 12x de R$ 18,90",
+            "A partir de 1,99%",
+            "A partir de 3,19%",
+            "A partir de 3,79%",
+            "Peça agora URL Verificada"
+          ],
+          [
+            "Minizinha Chip 3 4.9 Valor R$ 69,60 à vista ou 12x de R$ 5,80 Débito A partir de 1,99% Crédito (1x) A partir de 3,19% Crédito (12x) A partir de 3,79% Peça agora URL Verificada",
+            "Minizinha Chip 3 4.9",
+            "R$ 69,60 à vista ou 12x de R$ 5,80",
+            "A partir de 1,99%",
+            "A partir de 3,19%",
+            "A partir de 3,79%",
+            "Peça agora URL Verificada"
+          ],
+          [
+            "Moderninha Plus 2 4.8 Valor R$ 118,80 à vista ou 12x de R$ 9,90 Débito A partir de 1,99% Crédito (1x) A partir de 3,19% Crédito (12x) A partir de 3,79% Peça agora URL Verificada",
+            "Moderninha Plus 2 4.8",
+            "R$ 118,80 à vista ou 12x de R$ 9,90",
+            "A partir de 1,99%",
+            "A partir de 3,19%",
+            "A partir de 3,79%",
+            "Peça agora URL Verificada"
+          ],
+          [
+            "Moderninha Smart 2 4.8 Valor R$ 298,80 à vista ou 12x de R$ 24,90 Débito A partir de 3,19% Crédito (1x) A partir de 3,79% Crédito (12x) A partir de 21,59% Peça agora URL Verificada",
+            "Moderninha Smart 2 4.8",
+            "R$ 298,80 à vista ou 12x de R$ 24,90",
+            "A partir de 3,19%",
+            "A partir de 3,79%",
+            "A partir de 21,59%",
+            "Peça agora URL Verificada"
+          ]
+        ]
+      },
+      {
+        "type": "h2",
+        "text": "Por que trocar a senha do aplicativo PagBank?"
+      },
+      {
+        "type": "paragraph",
+        "text": "Manter a senha atualizada evita acessos indesejados e garante mais tranquilidade no uso das funções do aplicativo PagBank."
+      },
+      {
+        "type": "paragraph",
+        "text": "Além disso, se você acessa sua conta com frequência por redes públicas ou compartilha o dispositivo com outras pessoas, renovar a senha regularmente ajuda a reforçar a segurança."
+      },
+      {
+        "type": "paragraph",
+        "text": "Veja também: PagBank ou PagSeguro: afinal, qual é o nome certo em 2025?"
+      },
+      {
+        "type": "h2",
+        "text": "Passo a passo: como trocar a senha do aplicativo PagBank"
+      },
+      {
+        "type": "paragraph",
+        "text": "Acompanhe abaixo um guia simples para mudar sua senha com poucos toques:"
+      },
+      {
+        "type": "list-ol",
+        "items": [
+          "Abra o aplicativo PagBank no seu celular;",
+          "Toque em “Perfil”, localizado no canto inferior direito da tela;",
+          "Em seguida, selecione a opção “Segurança”;",
+          "Toque em “Trocar senha”;",
+          "Digite sua senha atual e depois a nova senha desejada;",
+          "Confirme a nova senha e toque em “Salvar”."
+        ]
+      },
+      {
+        "type": "paragraph",
+        "text": "Pronto! Sua senha será atualizada imediatamente, e você poderá continuar usando o app com total segurança."
+      },
+      {
+        "type": "paragraph",
+        "text": "Leia também: Como abrir conta no PagBank [Passo a passo]"
+      },
+      {
+        "type": "h2",
+        "text": "Dica extra: mantenha o app do PagBank sempre atualizado"
+      },
+      {
+        "type": "paragraph",
+        "text": "Primeiramente, para garantir o melhor desempenho e acesso a todas as funcionalidades, é importante baixar o aplicativo do PagBank na versão mais recente."
+      },
+      {
+        "type": "paragraph",
+        "text": "Assim, as atualizações frequentes incluem melhorias de segurança e novas ferramentas, que tornam sua experiência mais prática e segura — tanto para uso pessoal quanto para gestão da sua maquininha PagBank e controle do cartão de crédito PagBank."
+      },
+      {
+        "type": "h2",
+        "text": "Perguntas frequentes sobre o assunto"
+      },
+      {
+        "type": "h2",
+        "text": "Considerações finais"
+      },
+      {
+        "type": "paragraph",
+        "text": "Agora que você aprendeu como trocar a senha do aplicativo PagBank, aproveite para revisar outras configurações de segurança no seu perfil."
+      },
+      {
+        "type": "paragraph",
+        "text": "Dessa forma, com o app do PagBank, é possível gerenciar sua conta, fazer pagamentos, investir, utilizar sua melhor maquininha de cartão e muito mais — tudo com agilidade e proteção."
+      },
+      {
+        "type": "paragraph",
+        "text": "Portanto, mantenha seu aplicativo atualizado e suas informações sempre seguras!"
+      },
+      {
+        "type": "paragraph",
+        "text": "Continue lendo: CDB PagBank: Saiba como funciona!"
+      }
+    ]
+  },
+  {
+    "thumbnail": "https://www.maquininha.com.br/wp-content/uploads/2019/09/extrato-da-maquina-de-cartao.jpg",
+    "category": "Educacional",
+    "link": "https://www.maquininha.com.br/extrato-de-maquina-de-cartao/",
+    "title": "Como tirar extrato da máquina de cartão? Principais máquinas!",
+    "metadata": "17 abr 2025 • 9 min",
+    "content": [
+      {
+        "type": "paragraph",
+        "text": "Você já se perguntou o que é o extrato da máquina de cartão e por que ele é tão importante para o controle financeiro do seu negócio?"
+      },
+      {
+        "type": "paragraph",
+        "text": "Antes de tudo, ter um bom entendimento sobre os extratos das máquinas de cartão é essencial para os empreendedores que desejam ter controle total sobre suas vendas, recebimentos e taxas!"
+      },
+      {
+        "type": "paragraph",
+        "text": "Portanto, neste artigo, vamos explorar em detalhes o que é o extrato da máquina de cartão e como interpretá-lo para melhorar a gestão financeira do seu negócio, incluindo dicas para encontrar a maquininha com menor taxa, ajudando a reduzir despesas e aumentar a lucratividade."
+      },
+      {
+        "type": "paragraph",
+        "text": "Continue lendo!"
+      },
+      {
+        "type": "h2",
+        "text": "O que é o extrato da máquina de cartão?"
+      },
+      {
+        "type": "paragraph",
+        "text": "O extrato da máquina de cartão é um documento que registra todas as transações realizadas por meio de uma máquina de cartão de crédito ou débito."
+      },
+      {
+        "type": "paragraph",
+        "text": "Ou seja, ele fornece informações detalhadas sobre cada venda, incluindo o valor, a data, o tipo de operação (crédito ou débito), as taxas aplicadas e o prazo para o recebimento."
+      },
+      {
+        "type": "h2",
+        "text": "Por que o extrato é importante?"
+      },
+      {
+        "type": "paragraph",
+        "text": "Ter acesso ao extrato da máquina de cartão permite que o empresário acompanhe suas vendas e identifique rapidamente qualquer discrepância nas transações."
+      },
+      {
+        "type": "paragraph",
+        "text": "Além disso, ele ajuda no controle financeiro, oferecendo uma visão clara sobre o fluxo de caixa e as taxas aplicadas em cada transação."
+      },
+      {
+        "type": "h2",
+        "text": "Como acessar o extrato das principais máquinas de cartão?"
+      },
+      {
+        "type": "paragraph",
+        "text": "A maioria das operadoras de máquinas de cartão oferece várias formas de acesso ao extrato, incluindo:"
+      },
+      {
+        "type": "list-ol",
+        "items": [
+          "Acesso Pelo Site ou App: Muitas empresas disponibilizam plataformas online para consulta de extratos;",
+          "E-mail ou SMS: Alguns serviços enviam resumos de transações diários ou semanais;",
+          "Terminal da Máquina: É possível consultar o extrato diretamente na própria máquina, em alguns modelos."
+        ]
+      },
+      {
+        "type": "paragraph",
+        "text": "Aprenda como verificar o extrato das principais máquinas de cartão a seguir!"
+      },
+      {
+        "type": "h2",
+        "text": "Como tirar extrato das máquinas PagBank"
+      },
+      {
+        "type": "paragraph",
+        "text": "A maquininha PagBank oferece extratos detalhados por meio do seu aplicativo e site, com possibilidade de antecipação de recebíveis e relatórios de vendas."
+      },
+      {
+        "type": "paragraph",
+        "text": "A plataforma também inclui gráficos para acompanhamento de desempenho e relatórios automáticos diários ou semanais."
+      },
+      {
+        "type": "paragraph",
+        "text": "Veja como consultar diretamente nas maquininhas PagBank:"
+      },
+      {
+        "type": "list-ol",
+        "items": [
+          "Na maquininha, pressione a tecla de menu (geralmente indicada como “Menu” ou um ícone de configurações);",
+          "Selecione “Relatórios” ou “Extrato”;",
+          "No menu, procure pela opção “Relatórios”, “Extrato” ou “Resumo de Vendas”;",
+          "Escolha o tipo de relatório;",
+          "Escolha entre um resumo diário ou detalhado das transações;",
+          "Selecione o período;",
+          "Informe a data ou período que deseja consultar;",
+          "Imprima ou visualize."
+        ]
+      },
+      {
+        "type": "paragraph",
+        "text": "A máquina mostrará o extrato na tela ou permitirá imprimir um relatório."
+      },
+      {
+        "type": "table",
+        "headers": [
+          "",
+          "Máquina",
+          "Valor",
+          "Débito",
+          "Crédito (1x)",
+          "Crédito (12x)",
+          ""
+        ],
+        "rows": [
+          [
+            "Minizinha NFC 2 4.9 Valor R$ 16,68 à vista ou 12x de R$ 1,39 Débito A partir de 1,99% Crédito (1x) A partir de 3,19% Crédito (12x) A partir de 3,79% Peça agora URL Verificada",
+            "Minizinha NFC 2 4.9",
+            "R$ 16,68 à vista ou 12x de R$ 1,39",
+            "A partir de 1,99%",
+            "A partir de 3,19%",
+            "A partir de 3,79%",
+            "Peça agora URL Verificada"
+          ],
+          [
+            "Moderninha Pro 2 4.9 Valor R$ 226,80 à vista ou 12x de R$ 18,90 Débito A partir de 1,99% Crédito (1x) A partir de 3,19% Crédito (12x) A partir de 3,79% Peça agora URL Verificada",
+            "Moderninha Pro 2 4.9",
+            "R$ 226,80 à vista ou 12x de R$ 18,90",
+            "A partir de 1,99%",
+            "A partir de 3,19%",
+            "A partir de 3,79%",
+            "Peça agora URL Verificada"
+          ],
+          [
+            "Minizinha Chip 3 4.9 Valor R$ 69,60 à vista ou 12x de R$ 5,80 Débito A partir de 1,99% Crédito (1x) A partir de 3,19% Crédito (12x) A partir de 3,79% Peça agora URL Verificada",
+            "Minizinha Chip 3 4.9",
+            "R$ 69,60 à vista ou 12x de R$ 5,80",
+            "A partir de 1,99%",
+            "A partir de 3,19%",
+            "A partir de 3,79%",
+            "Peça agora URL Verificada"
+          ],
+          [
+            "Moderninha Plus 2 4.8 Valor R$ 118,80 à vista ou 12x de R$ 9,90 Débito A partir de 1,99% Crédito (1x) A partir de 3,19% Crédito (12x) A partir de 3,79% Peça agora URL Verificada",
+            "Moderninha Plus 2 4.8",
+            "R$ 118,80 à vista ou 12x de R$ 9,90",
+            "A partir de 1,99%",
+            "A partir de 3,19%",
+            "A partir de 3,79%",
+            "Peça agora URL Verificada"
+          ],
+          [
+            "Moderninha Smart 2 4.8 Valor R$ 298,80 à vista ou 12x de R$ 24,90 Débito A partir de 3,19% Crédito (1x) A partir de 3,79% Crédito (12x) A partir de 21,59% Peça agora URL Verificada",
+            "Moderninha Smart 2 4.8",
+            "R$ 298,80 à vista ou 12x de R$ 24,90",
+            "A partir de 3,19%",
+            "A partir de 3,79%",
+            "A partir de 21,59%",
+            "Peça agora URL Verificada"
+          ]
+        ]
+      },
+      {
+        "type": "paragraph",
+        "text": "Se tiver dificuldade em acessar o extrato, você pode entrar em contato com o suporte PagBank:"
+      },
+      {
+        "type": "list-ul",
+        "items": [
+          "Telefone: 4003-1775 (capitais) ou 0800-728-2174 (demais localidades).",
+          "Chat online: Disponível no site oficial PagBank."
+        ]
+      },
+      {
+        "type": "paragraph",
+        "text": "A maquininha Cielo disponibiliza uma plataforma completa para gestão de vendas, com relatórios, gráficos, e ferramentas de conciliação financeira, facilitando a análise do desempenho financeiro e a identificação de discrepâncias em tempo real."
+      },
+      {
+        "type": "paragraph",
+        "text": "Para um extrato da máquina Cielo com vendas do dia:"
+      },
+      {
+        "type": "list-ol",
+        "items": [
+          "Na maquininha, pressione a tecla “Menu” ou um botão semelhante (pode ser indicado como “Funções”);",
+          "Selecione “Relatórios”;",
+          "Navegue pelo menu e escolha a opção “Relatórios” ou “Resumo de Vendas”;",
+          "Escolha o tipo de relatório;",
+          "Opte por “Vendas do Dia”, “Resumo Diário” ou um termo equivalente;",
+          "Em algumas máquinas, pode aparecer “Relatório Geral” ou “Fechamento do Dia”;",
+          "Confirme a geração do relatório;",
+          "A máquina processará os dados e exibirá o resumo na tela;",
+          "Imprima o relatório (opcional):"
+        ]
+      },
+      {
+        "type": "paragraph",
+        "text": "Após exibir na tela, a máquina geralmente oferece a opção de imprimir o relatório."
+      },
+      {
+        "type": "paragraph",
+        "text": "Para o relatório de vendas por período: No menu, encontre e escolha a opção que permita consultar relatórios de períodos específicos."
+      },
+      {
+        "type": "table",
+        "headers": [
+          "",
+          "Máquina",
+          "Valor",
+          "Débito",
+          "Crédito (1x)",
+          "Crédito (12x)",
+          ""
+        ],
+        "rows": [
+          [
+            "Cielo Zip 4.7 Valor R$ 226,80 à vista ou 12x de R$ 18,90 Débito A partir de 1,83% Crédito (1x) A partir de 3,59% Crédito (12x) A partir de 14,75% Peça agora URL Verificada",
+            "Cielo Zip 4.7",
+            "R$ 226,80 à vista ou 12x de R$ 18,90",
+            "A partir de 1,83%",
+            "A partir de 3,59%",
+            "A partir de 14,75%",
+            "Peça agora URL Verificada"
+          ],
+          [
+            "Cielo Flash 4.7 Valor R$ 298,80 à vista ou 12x de R$ 24,90 Débito A partir de 1.79% Crédito (1x) A partir de 3.59% Crédito (12x) A partir de 14.75% Peça agora URL Verificada",
+            "Cielo Flash 4.7",
+            "R$ 298,80 à vista ou 12x de R$ 24,90",
+            "A partir de 1.79%",
+            "A partir de 3.59%",
+            "A partir de 14.75%",
+            "Peça agora URL Verificada"
+          ],
+          [
+            "Cielo LIO On 4.3 Valor à vista ou 12x de R$ 89,90 Débito A partir de 2.39% Crédito (1x) A partir de 4.99% Crédito (12x) A partir de 14,75 Peça agora URL Verificada",
+            "Cielo LIO On 4.3",
+            "à vista ou 12x de R$ 89,90",
+            "A partir de 2.39%",
+            "A partir de 4.99%",
+            "A partir de 14,75",
+            "Peça agora URL Verificada"
+          ]
+        ]
+      },
+      {
+        "type": "paragraph",
+        "text": "Caso tenha dificuldades, você pode contatar a central de atendimento pelo telefone 0800-570-8472.Modelos de máquinas:"
+      },
+      {
+        "type": "paragraph",
+        "text": "O menu pode variar ligeiramente dependendo do modelo da maquininha Cielo (como Cielo Flash, Lio etc.), mas os passos gerais são os mesmos."
+      },
+      {
+        "type": "paragraph",
+        "text": "A maquininha Rede oferece acesso ao extrato por meio do aplicativo e permite ao usuário personalizar a visualização dos dados para uma análise mais assertiva."
+      },
+      {
+        "type": "paragraph",
+        "text": "Além disso, possibilita o download de relatórios em diferentes formatos, como Excel, para controle detalhado. Confira o passo a passo:"
+      },
+      {
+        "type": "list-ol",
+        "items": [
+          "Na maquininha Rede, pressione a tecla “Menu” ou o botão de navegação principal;",
+          "Selecione “Relatórios” ou “Resumo de Vendas”;",
+          "Navegue até a opção “Relatórios”, “Resumo de Vendas” ou algo semelhante no menu;",
+          "Escolha o tipo de relatório: Opções comuns incluem resumo do dia, detalhamento de todas as transações realizadas e forma de pagamento (crédito, débito ou VR);",
+          "Informe o período (se solicitado);",
+          "Visualize ou Imprima."
+        ]
+      },
+      {
+        "type": "paragraph",
+        "text": "O relatório será exibido na tela. Você pode optar por imprimi-lo se a máquina tiver essa funcionalidade!"
+      },
+      {
+        "type": "table",
+        "headers": [
+          "",
+          "Máquina",
+          "Valor",
+          "Débito",
+          "Crédito (1x)",
+          "Crédito (12x)",
+          ""
+        ],
+        "rows": [
+          [
+            "Laranjinha Rede+ 4.3 Valor à vista ou Débito A partir de 1,39% Crédito (1x) A partir de 2,69% Crédito (12x) A partir de 4,04% Peça agora URL Verificada",
+            "Laranjinha Rede+ 4.3",
+            "à vista ou",
+            "A partir de 1,39%",
+            "A partir de 2,69%",
+            "A partir de 4,04%",
+            "Peça agora URL Verificada"
+          ],
+          [
+            "Laranjinha Smart 4.6 Valor à vista ou Débito A partir de 1,39% Crédito (1x) A partir de 2,69% Crédito (12x) A partir de 4,04% Peça agora URL Verificada",
+            "Laranjinha Smart 4.6",
+            "à vista ou",
+            "A partir de 1,39%",
+            "A partir de 2,69%",
+            "A partir de 4,04%",
+            "Peça agora URL Verificada"
+          ],
+          [
+            "Laranjinha + TEF 4.2 Valor à vista ou Débito A partir de 1,39% Crédito (1x) A partir de 2,69% Crédito (12x) A partir de 4,04% Peça agora URL Verificada",
+            "Laranjinha + TEF 4.2",
+            "à vista ou",
+            "A partir de 1,39%",
+            "A partir de 2,69%",
+            "A partir de 4,04%",
+            "Peça agora URL Verificada"
+          ],
+          [
+            "Laranjinha Pin Pad 4.6 Valor à vista ou Débito A partir de 1,39% Crédito (1x) A partir de 2,69% Crédito (12x) A partir de 4,04% Peça agora URL Verificada",
+            "Laranjinha Pin Pad 4.6",
+            "à vista ou",
+            "A partir de 1,39%",
+            "A partir de 2,69%",
+            "A partir de 4,04%",
+            "Peça agora URL Verificada"
+          ]
+        ]
+      },
+      {
+        "type": "paragraph",
+        "text": "Central de Atendimento Rede:"
+      },
+      {
+        "type": "list-ul",
+        "items": [
+          "Capitais e regiões metropolitanas: 4001-4433;",
+          "Outras localidades: 0800-728-4433."
+        ]
+      },
+      {
+        "type": "h2",
+        "text": "Como solicitar correção de extrato da máquina de cartão"
+      },
+      {
+        "type": "paragraph",
+        "text": "Caso identifique uma cobrança indevida ou erro no extrato, você deve:"
+      },
+      {
+        "type": "list-ol",
+        "items": [
+          "Entrar em Contato com a Operadora: A maioria das operadoras possui canais de atendimento;",
+          "Enviar Comprovantes das Transações: Manter registros facilita a resolução de problemas;",
+          "Acompanhar o Andamento: As operadoras geralmente têm um prazo para responder e corrigir possíveis erros."
+        ]
+      },
+      {
+        "type": "h2",
+        "text": "Principais informações do extrato da maquininha"
+      },
+      {
+        "type": "list-ul",
+        "items": [
+          "Data da transação: A data de cada transação é essencial para que o empresário organize as entradas por período e acompanhe o fluxo diário ou mensal;"
+        ]
+      },
+      {
+        "type": "list-ul",
+        "items": [
+          "Tipo de operação (Crédito ou Débito): No extrato, você encontra a distinção entre transações de crédito e débito. Isso é importante pois as taxas aplicadas variam entre esses tipos de operação;"
+        ]
+      },
+      {
+        "type": "list-ul",
+        "items": [
+          "Valor da transação: O valor de cada venda é indicado de forma clara, permitindo o controle preciso de quanto foi processado por dia, semana ou mês;"
+        ]
+      },
+      {
+        "type": "list-ul",
+        "items": [
+          "Taxas aplicadas: As taxas cobradas pela operadora são detalhadas para que o empresário saiba exatamente o custo de cada venda realizada. Elas variam conforme o tipo de operação e o plano contratado com a operadora."
+        ]
+      },
+      {
+        "type": "h2",
+        "text": "Entendendo as taxas do extrato da máquina de Cartão"
+      },
+      {
+        "type": "paragraph",
+        "text": "Esta taxa é aplicada em transações realizadas no débito, normalmente menor em comparação às taxas de crédito."
+      },
+      {
+        "type": "paragraph",
+        "text": "Essa taxa é cobrada para transações realizadas no crédito à vista, sendo uma das taxas mais comuns."
+      },
+      {
+        "type": "paragraph",
+        "text": "Para compras parceladas, a taxa pode ser mais alta, dependendo do número de parcelas e do contrato com a operadora."
+      },
+      {
+        "type": "paragraph",
+        "text": "Quando o empresário decide antecipar os valores das vendas a prazo, é cobrada uma taxa de antecipação, que também estará discriminada no extrato."
+      },
+      {
+        "type": "h2",
+        "text": "Como interpretar o extrato para melhorar o fluxo de caixa"
+      },
+      {
+        "type": "paragraph",
+        "text": "Analisar o extrato da máquina de cartão permite ao empresário identificar períodos de maior e menor venda, facilitando o planejamento financeiro e o ajuste das estratégias de venda para períodos de baixa."
+      },
+      {
+        "type": "paragraph",
+        "text": "Além disso, ao compreender detalhadamente as taxas aplicadas em cada operação, o empresário consegue calcular o custo real de cada venda, avaliar a viabilidade de promoções e otimizar a margem de lucro."
+      },
+      {
+        "type": "paragraph",
+        "text": "Dessa forma, com esses dados, torna-se mais fácil ajustar preços e negociar melhores condições com a operadora de cartão."
+      },
+      {
+        "type": "h2",
+        "text": "Dicas para otimizar o uso do extrato da máquina de cartão"
+      },
+      {
+        "type": "list-ol",
+        "items": [
+          "Revise o Extrato Regularmente: Antes de tudo, verifique o extrato com frequência, pois, ajuda a identificar erros rapidamente;",
+          "Negocie as Taxas: Analisar o custo de cada transação pode ajudar a negociar melhores condições com a operadora;",
+          "Utilize o Extrato para Planejamento Financeiro: Com o extrato em mãos, é possível fazer projeções de fluxo de caixa e planejamento de investimentos."
+        ]
+      },
+      {
+        "type": "h2",
+        "text": "Diferença entre extrato de máquina de cartão e bancário"
+      },
+      {
+        "type": "paragraph",
+        "text": "Embora ambos mostrem movimentações financeiras, o extrato da máquina de cartão é específico para as vendas realizadas por cartão, enquanto o extrato bancário engloba todas as transações da conta, incluindo saques, transferências e outras entradas e saídas."
+      },
+      {
+        "type": "h2",
+        "text": "Ferramentas adicionais oferecidas pelas operadoras de cartão"
+      },
+      {
+        "type": "paragraph",
+        "text": "Algumas operadoras oferecem recursos extras, como:"
+      },
+      {
+        "type": "list-ul",
+        "items": [
+          "Relatórios Detalhados: Para análise de vendas por período;",
+          "Gráficos de Desempenho: Visualização clara das transações;",
+          "Notificações e Alertas: Acompanhamento em tempo real das vendas."
+        ]
+      },
+      {
+        "type": "h2",
+        "text": "Perguntas Frequentes Sobre Extrato da Maquininha de Cartão"
+      },
+      {
+        "type": "h2",
+        "text": "Afinal, é vantajoso usar o extrato da máquina de cartão?"
+      },
+      {
+        "type": "paragraph",
+        "text": "A princípio, o extrato da máquina de cartão é uma ferramenta indispensável para qualquer empresário que deseja ter uma visão clara e organizada das suas transações."
+      },
+      {
+        "type": "paragraph",
+        "text": "Do mesmo modo, com ele, é possível monitorar as vendas, entender os custos envolvidos e planejar o fluxo de caixa com precisão. Dessa forma, podemos listar algumas vantagens:"
+      },
+      {
+        "type": "list-ol",
+        "items": [
+          "Controle Financeiro: Facilidade para monitorar as vendas e receitas;",
+          "Redução de Fraudes: Identificação rápida de transações suspeitas;",
+          "Melhoria no Planejamento: Dados precisos para tomadas de decisões financeiras."
+        ]
+      },
+      {
+        "type": "paragraph",
+        "text": "Portanto, aproveitar ao máximo esse recurso pode trazer mais segurança e eficiência para o seu negócio!"
+      },
+      {
+        "type": "paragraph",
+        "text": "Se gostou deste conteúdo, aproveite para continuar navegando em nosso site!"
+      },
+      {
+        "type": "paragraph",
+        "text": "Leia também: Bandeiras aceitas pelas maquininhas de cartão"
+      }
+    ]
+  },
+  {
+    "thumbnail": "https://www.maquininha.com.br/wp-content/uploads/2024/08/telefone-maquinha-ton.jpeg",
+    "category": "Empresas",
+    "link": "https://www.maquininha.com.br/telefone-ton/",
+    "title": "Qual o telefone da Maquininha Ton? Confira!",
+    "metadata": "17 abr 2025 • 5 min",
+    "content": [
+      {
+        "type": "paragraph",
+        "text": "Quando se trata de gestão de negócios, ter um suporte acessível e eficiente é crucial. Para os usuários da maquininha Ton, saber qual é o telefone da maquininha Ton é fundamental para garantir um atendimento ágil e solucionar qualquer problema que possa surgir."
+      },
+      {
+        "type": "paragraph",
+        "text": "Este artigo explora os canais de contato disponíveis para os clientes da Ton, incluindo o número de telefone, outras formas de atendimento, e dicas sobre como utilizar o suporte da melhor maneira possível."
+      },
+      {
+        "type": "h2",
+        "text": "Telefone da Maquininha Ton"
+      },
+      {
+        "type": "paragraph",
+        "text": "Se você está buscando o telefone da Ton para resolver dúvidas, obter suporte técnico ou informações sobre as maquininhas, chegou ao lugar certo."
+      },
+      {
+        "type": "paragraph",
+        "text": "A Ton, empresa do grupo Stone, oferece atendimento eficiente para quem precisa de ajuda com maquininhas de cartão, pagamentos no celular, parcelamento sem juros, entre outros serviços."
+      },
+      {
+        "type": "paragraph",
+        "text": "O telefone oficial da Ton para atendimento ao cliente é:"
+      },
+      {
+        "type": "paragraph",
+        "text": "3004-9137 (capitais e regiões metropolitanas);0800-326-0909 (demais localidades)."
+      },
+      {
+        "type": "paragraph",
+        "text": "O horário de atendimento costuma ser de segunda a sábado, das 08h às 22h, exceto feriados."
+      },
+      {
+        "type": "paragraph",
+        "text": "Você pode ligar para o telefone da Ton para:"
+      },
+      {
+        "type": "list-ul",
+        "items": [
+          "Ativar sua maquininha;",
+          "Resolver problemas técnicos;",
+          "Solicitar segunda via de boleto ou fatura;",
+          "Obter informações sobre taxas, planos e prazos de recebimento;",
+          "Falar sobre parcelamento sem juros para seus clientes;",
+          "Dúvidas sobre o aplicativo da Ton ou a maquininha no celular."
+        ]
+      },
+      {
+        "type": "paragraph",
+        "text": "Além do telefone, a Ton também oferece atendimento via:"
+      },
+      {
+        "type": "list-ul",
+        "items": [
+          "WhatsApp: 11 3004-9136;",
+          "Chat online: Pelo site oficial ou aplicativo da maquininha Ton;",
+          "E-mail e suporte dentro do app: ton@stone.com.br."
+        ]
+      },
+      {
+        "type": "paragraph",
+        "text": "A Ton se destaca no mercado por oferecer algumas das maquininhas mais usadas no Brasil, ideais para autônomos, microempreendedores e pequenos negócios."
+      },
+      {
+        "type": "paragraph",
+        "text": "Com opções que funcionam com chip, Wi-Fi ou até integradas ao celular, elas são práticas, portáteis e com taxas competitivas."
+      },
+      {
+        "type": "paragraph",
+        "text": "Para garantir que o seu contato com o suporte seja o mais eficiente possível, algumas dicas podem ser seguidas:"
+      },
+      {
+        "type": "list-ul",
+        "items": [
+          "Tenha em mente as informações básicas: Antes de ligar para o telefone da maquininha Ton, tenha em mãos informações como o número de série da sua maquininha, CPF ou CNPJ registrado na conta, e detalhes específicos do problema que você está enfrentando;",
+          "Escolha o canal adequado: Nem todas as questões precisam ser resolvidas por telefone. Para dúvidas simples, o chat online ou a Central de Ajuda podem ser mais rápidos e práticos. Reserve o contato telefônico para situações mais complexas ou que exijam uma solução imediata;",
+          "Seja claro e objetivo: Ao explicar o seu problema, seja claro e direto. Isso ajuda o atendente a entender rapidamente a situação e a fornecer a solução mais adequada. Evite dar muitas voltas ou detalhes irrelevantes;",
+          "Anote o protocolo de atendimento: Sempre que possível, anote o número de protocolo fornecido durante o atendimento. Isso é importante caso você precise acompanhar a resolução do problema ou voltar a contatar a empresa sobre a mesma questão."
+        ]
+      },
+      {
+        "type": "paragraph",
+        "text": "Saber qual é o telefone da maquininha Ton é útil em diversas situações, mas é importante saber identificar quando o contato telefônico é a melhor opção. Algumas situações em que ligar pode ser mais eficiente incluem:"
+      },
+      {
+        "type": "list-ul",
+        "items": [
+          "Problemas Técnicos Urgentes: Se a sua maquininha parou de funcionar e você não consegue processar pagamentos, o contato telefônico pode ajudar a resolver o problema rapidamente;",
+          "Dúvidas Sobre Transações: Caso você tenha alguma dúvida sobre uma transação específica, como um pagamento não processado ou uma cobrança indevida, o suporte telefônico pode oferecer uma solução imediata;",
+          "Solicitação de Suporte Avançado: Para questões que exigem um conhecimento técnico mais profundo, como a configuração de funcionalidades específicas ou a integração com sistemas de gestão, o telefone pode ser a melhor forma de obter ajuda."
+        ]
+      },
+      {
+        "type": "paragraph",
+        "text": "O suporte via telefone ainda é um dos métodos mais valorizados pelos consumidores, e a Ton sabe disso. O telefone da maquininha Ton oferece várias vantagens, como:"
+      },
+      {
+        "type": "list-ol",
+        "items": [
+          "Imediatismo: Diferente de e-mails ou tickets de suporte, o atendimento telefônico oferece respostas em tempo real, o que é essencial para resolver problemas rapidamente;",
+          "Interação Humana: Falar diretamente com um atendente pode tornar o processo mais agradável, especialmente em situações de stress ou frustração. A empatia do outro lado da linha pode fazer toda a diferença;",
+          "Possibilidade de Explicação Detalhada: Algumas questões são complexas demais para serem resolvidas via chat ou e-mail. A conversa por telefone permite uma explicação mais detalhada e um entendimento melhor da situação por parte do atendente."
+        ]
+      },
+      {
+        "type": "h2",
+        "text": "Dúvidas frequentes"
+      },
+      {
+        "type": "h2",
+        "text": "Por que é importante saber o Telefone da Maquininha Ton?"
+      },
+      {
+        "type": "paragraph",
+        "text": "Ter o telefone da maquininha Ton sempre à mão é essencial para garantir agilidade no atendimento, suporte técnico eficiente e soluções rápidas para o seu negócio."
+      },
+      {
+        "type": "paragraph",
+        "text": "Seja para ativar sua maquininha, tirar dúvidas sobre taxas, parcelamento sem juros, ou resolver problemas no uso do aplicativo ou da maquininha no celular, contar com um canal direto de comunicação faz toda a diferença."
+      },
+      {
+        "type": "paragraph",
+        "text": "Além disso, saber como entrar em contato com a Ton demonstra profissionalismo e preparo, principalmente se você depende das maquininhas mais usadas no dia a dia para vender. O suporte da Ton é um dos mais bem avaliados do mercado, oferecendo atendimento humanizado e focado no sucesso do empreendedor."
+      },
+      {
+        "type": "paragraph",
+        "text": "Continue lendo: Maquininha Ton aceita vale-alimentação?"
+      }
+    ]
+  },
+  {
+    "thumbnail": "https://www.maquininha.com.br/wp-content/uploads/2025/04/imagem-maquininha-ideal-pagseguro-ou-pagbank.png",
+    "category": "Educacional",
+    "link": "https://www.maquininha.com.br/pagbank-ou-pagseguro/",
+    "title": "PagBank ou PagSeguro: afinal, qual é o nome certo em 2025?",
+    "metadata": "16 abr 2025 • 3 min",
+    "content": [
+      {
+        "type": "paragraph",
+        "text": "Quem procura por soluções financeiras digitais ainda se depara com a dúvida: PagBank ou PagSeguro, qual é o nome correto? A confusão é comum, especialmente porque o nome PagSeguro foi muito forte por anos no Brasil."
+      },
+      {
+        "type": "paragraph",
+        "text": "No entanto, desde 2023, a empresa unificou todas as suas soluções sob a marca PagBank, oferecendo conta digital, investimentos, cartões e até maquininha de cartão em um único ecossistema."
+      },
+      {
+        "type": "paragraph",
+        "text": "Continue lendo para entender melhor sobre o assunto!"
+      },
+      {
+        "type": "h2",
+        "text": "PagBank e PagSeguro são a mesma coisa?"
+      },
+      {
+        "type": "paragraph",
+        "text": "Sim. PagBank e PagSeguro agora são uma coisa só: PagBank. A marca PagSeguro deixou de ser usada oficialmente, mas ainda está presente na memória das pessoas, já que ficou bastante conhecida por suas maquininhas e soluções de pagamento."
+      },
+      {
+        "type": "paragraph",
+        "text": "Essa mudança gerou dúvidas como “o PagSeguro virou PagBank?” — e a resposta é sim. A partir de 2023, todos os produtos e serviços da empresa passaram a ser oferecidos sob o nome PagBank."
+      },
+      {
+        "type": "paragraph",
+        "text": "Conheça também as taxas das maquininhas PagBank!"
+      },
+      {
+        "type": "h2",
+        "text": "Quando a PagSeguro virou PagBank?"
+      },
+      {
+        "type": "paragraph",
+        "text": "A transição começou há alguns anos, mas foi em 2023 que a mudança se consolidou. O objetivo foi simplificar a experiência do usuário, oferecendo tudo em um só lugar: conta digital, cartão, investimentos, crédito, seguros e, claro, soluções de pagamento como as maquininhas."
+      },
+      {
+        "type": "paragraph",
+        "text": "Antes, os clientes precisavam entender a diferença entre as marcas. Agora, tudo está centralizado no PagBank, o nome oficial da empresa."
+      },
+      {
+        "type": "h2",
+        "text": "Qual é a diferença entre PagBank e PagSeguro?"
+      },
+      {
+        "type": "paragraph",
+        "text": "Hoje, não existe mais diferença. A antiga divisão entre PagSeguro (pagamentos) e PagBank (banco digital) foi eliminada."
+      },
+      {
+        "type": "paragraph",
+        "text": "Toda a experiência — desde a abertura de conta até a gestão de vendas com parcelamento sem juros — está integrada no PagBank. Isso significa que, com uma só conta, você pode:"
+      },
+      {
+        "type": "list-ul",
+        "items": [
+          "Controlar suas vendas com maquininhas do PagBank modernas;",
+          "Fazer transferências, Pix e pagamentos de contas;",
+          "Investir seu dinheiro de forma simples e segura;",
+          "Solicitar empréstimos e ter acesso a seguros e benefícios exclusivos."
+        ]
+      },
+      {
+        "type": "paragraph",
+        "text": "Veja também: CDB PagBank: Saiba como funciona!"
+      },
+      {
+        "type": "h2",
+        "text": "Qual banco pertence ao PagSeguro?"
+      },
+      {
+        "type": "paragraph",
+        "text": "Se você possui dúvidas sobre qual banco o PagBank pertence, ele não só é uma instituição financeira própria, como também é autorizada e regulada pelo Banco Central do Brasil."
+      },
+      {
+        "type": "paragraph",
+        "text": "Ou seja, ele não pertence a nenhum outro banco: é uma empresa independente dentro do grupo UOL (Universo Online), um dos maiores conglomerados de internet do país."
+      },
+      {
+        "type": "paragraph",
+        "text": "Dessa forma, isso garante autonomia, solidez e segurança para todos os clientes da plataforma."
+      },
+      {
+        "type": "h2",
+        "text": "Maquininhas PagBank"
+      },
+      {
+        "type": "table",
+        "headers": [
+          "",
+          "Máquina",
+          "Valor",
+          "Débito",
+          "Crédito (1x)",
+          "Crédito (12x)",
+          ""
+        ],
+        "rows": [
+          [
+            "Minizinha NFC 2 4.9 Valor R$ 16,68 à vista ou 12x de R$ 1,39 Débito A partir de 1,99% Crédito (1x) A partir de 3,19% Crédito (12x) A partir de 3,79% Peça agora URL Verificada",
+            "Minizinha NFC 2 4.9",
+            "R$ 16,68 à vista ou 12x de R$ 1,39",
+            "A partir de 1,99%",
+            "A partir de 3,19%",
+            "A partir de 3,79%",
+            "Peça agora URL Verificada"
+          ],
+          [
+            "Moderninha Pro 2 4.9 Valor R$ 226,80 à vista ou 12x de R$ 18,90 Débito A partir de 1,99% Crédito (1x) A partir de 3,19% Crédito (12x) A partir de 3,79% Peça agora URL Verificada",
+            "Moderninha Pro 2 4.9",
+            "R$ 226,80 à vista ou 12x de R$ 18,90",
+            "A partir de 1,99%",
+            "A partir de 3,19%",
+            "A partir de 3,79%",
+            "Peça agora URL Verificada"
+          ],
+          [
+            "Minizinha Chip 3 4.9 Valor R$ 69,60 à vista ou 12x de R$ 5,80 Débito A partir de 1,99% Crédito (1x) A partir de 3,19% Crédito (12x) A partir de 3,79% Peça agora URL Verificada",
+            "Minizinha Chip 3 4.9",
+            "R$ 69,60 à vista ou 12x de R$ 5,80",
+            "A partir de 1,99%",
+            "A partir de 3,19%",
+            "A partir de 3,79%",
+            "Peça agora URL Verificada"
+          ],
+          [
+            "Moderninha Plus 2 4.8 Valor R$ 118,80 à vista ou 12x de R$ 9,90 Débito A partir de 1,99% Crédito (1x) A partir de 3,19% Crédito (12x) A partir de 3,79% Peça agora URL Verificada",
+            "Moderninha Plus 2 4.8",
+            "R$ 118,80 à vista ou 12x de R$ 9,90",
+            "A partir de 1,99%",
+            "A partir de 3,19%",
+            "A partir de 3,79%",
+            "Peça agora URL Verificada"
+          ],
+          [
+            "Moderninha Smart 2 4.8 Valor R$ 298,80 à vista ou 12x de R$ 24,90 Débito A partir de 3,19% Crédito (1x) A partir de 3,79% Crédito (12x) A partir de 21,59% Peça agora URL Verificada",
+            "Moderninha Smart 2 4.8",
+            "R$ 298,80 à vista ou 12x de R$ 24,90",
+            "A partir de 3,19%",
+            "A partir de 3,79%",
+            "A partir de 21,59%",
+            "Peça agora URL Verificada"
+          ]
+        ]
+      },
+      {
+        "type": "h2",
+        "text": "Dúvidas frequentes"
+      },
+      {
+        "type": "h2",
+        "text": "Afinal, o PagSeguro virou PagBank?"
+      },
+      {
+        "type": "paragraph",
+        "text": "Sim, de forma oficial. Desde 2023, todos os canais da empresa, produtos e comunicações passaram a utilizar apenas a marca PagBank."
+      },
+      {
+        "type": "paragraph",
+        "text": "Seja para quem já conhecia o antigo PagSeguro ou para quem está descobrindo agora os serviços da empresa, a proposta é clara: uma única plataforma digital com tudo o que você precisa para vender, pagar, investir e crescer."
+      },
+      {
+        "type": "paragraph",
+        "text": "Com uma conta PagBank, você tem acesso a todos os recursos — das maquininhas às soluções bancárias — com a confiança de uma marca sólida e inovadora."
+      },
+      {
+        "type": "paragraph",
+        "text": "Continue lendo: Como abrir conta no PagBank [Passo a passo]"
+      }
+    ]
+  },
+  {
+    "thumbnail": "https://www.maquininha.com.br/wp-content/uploads/2025/01/imagem-azulzinha-caixa.jpg",
+    "category": "Maquininhas",
+    "link": "https://www.maquininha.com.br/maquininha-caixa/",
+    "title": "Maquininha Caixa: Conheça tudo sobre a azulzinha",
+    "metadata": "15 abr 2025 • 6 min",
+    "content": [
+      {
+        "type": "paragraph",
+        "text": "Se você está procurando a melhor maquininha de cartão para gerenciar os pagamentos do seu negócio, a maquininha de cartão caixa azulzinha pode ser a escolha perfeita."
+      },
+      {
+        "type": "paragraph",
+        "text": "Com ampla aceitação de bandeiras, possui maquininhas com menores taxas e uma série de funcionalidades que facilitam o dia a dia, ela se destaca como uma das opções mais vantajosas para empreendedores no Brasil."
+      },
+      {
+        "type": "paragraph",
+        "text": "Mas, afinal, o que faz a azulzinha ser tão especial? Continue lendo e descubra!"
+      },
+      {
+        "type": "h2",
+        "text": "O que é a maquininha caixa azulzinha?"
+      },
+      {
+        "type": "paragraph",
+        "text": "A azulzinha é a maquininha de cartão oferecida pela CAIXA, projetada para atender diferentes perfis de negócios, desde MEIs até grandes empresas."
+      },
+      {
+        "type": "paragraph",
+        "text": "Com ela, você pode aceitar diversas formas de pagamento, integrar sua gestão financeira e até realizar vendas online de forma prática e segura."
+      },
+      {
+        "type": "paragraph",
+        "text": "Veja também: Melhor maquininha para MEI [Ranking]."
+      },
+      {
+        "type": "paragraph",
+        "text": "A azulzinha está disponível em diferentes versões, como a smart, ideal para gestão completa; a pro, para mobilidade; a aproxima, para quem busca tecnologia moderna; e a TEF, perfeita para grandes volumes de transações."
+      },
+      {
+        "type": "h2",
+        "text": "Vantagens de ter a maquininha azulzinha"
+      },
+      {
+        "type": "paragraph",
+        "text": "Adquirir a azulzinha vai muito além de aceitar pagamentos. Confira algumas vantagens que podem fazer toda a diferença no seu dia a dia:"
+      },
+      {
+        "type": "paragraph",
+        "text": "Uma das maiores vantagens é a possibilidade de usar seu celular como maquininha e taxas ajustadas ao perfil do seu negócio."
+      },
+      {
+        "type": "paragraph",
+        "text": "O valor do aluguel das maquininha de cartão Caixa são a partir de 20 reais mensais, com possibilidades de zera-lo cumprindo alguns exigências descritas na contratação."
+      },
+      {
+        "type": "paragraph",
+        "text": "Isso significa que você paga apenas pelo que realmente usa."
+      },
+      {
+        "type": "paragraph",
+        "text": "Leia também: Maquininha de cartao com ou sem aluguel?"
+      },
+      {
+        "type": "paragraph",
+        "text": "Com o aplicativo ou portal da azulzinha, você pode acompanhar vendas, conciliar pagamentos e até antecipar recebíveis. Tudo em um só lugar!"
+      },
+      {
+        "type": "paragraph",
+        "text": "Se precisar de ajuda, o suporte está disponível 24 horas por dia. Além disso, a maquininha é entregue com frete grátis em até cinco dias úteis."
+      },
+      {
+        "type": "paragraph",
+        "text": "A azulzinha não é só mais uma maquininha no mercado. Ela oferece funcionalidades que realmente impactam o seu negócio."
+      },
+      {
+        "type": "paragraph",
+        "text": "Com a azulzinha, você pode atender clientes de todas as partes do Brasil, aceitando uma ampla gama de bandeiras, incluindo cartões nacionais e internacionais."
+      },
+      {
+        "type": "paragraph",
+        "text": "Saiba as principais bandeiras de cartão usadas pelos seus clientes e veja se faz sentido adquirir uma azulzinha."
+      },
+      {
+        "type": "paragraph",
+        "text": "Quer oferecer praticidade para seus clientes? A azulzinha aceita pagamento por aproximação, Pix e QR Code, ou seja, as formas mais rápidas e seguras do momento."
+      },
+      {
+        "type": "paragraph",
+        "text": "Não tem e-commerce? Sem problema! Com a azulzinha, você pode gerar links de pagamento e enviar para seus clientes via WhatsApp, facilitando ainda mais as vendas."
+      },
+      {
+        "type": "h2",
+        "text": "Como funciona cada modelo de maquininha azulzinha"
+      },
+      {
+        "type": "paragraph",
+        "text": "Cada modelo da azulzinha é pensado para atender necessidades específicas. Portanto, veja qual é o ideal para o seu negócio:"
+      },
+      {
+        "type": "paragraph",
+        "text": "Ideal para bares, restaurantes e eventos, a azulzinha smart oferece uma gestão completa do negócio, integrando estoque, vendas e até antecipação de recebíveis."
+      },
+      {
+        "type": "paragraph",
+        "text": "Se você precisa levar a maquininha até o cliente, a azulzinha pro é a escolha certa. Dessa forma, com design sem fio e interface intuitiva, ela é perfeita para quem busca agilidade."
+      },
+      {
+        "type": "paragraph",
+        "text": "Com a azulzinha TEF, suas vendas são automaticamente integradas ao sistema de automação comercial, assim, garantindo eficiência e rapidez no atendimento."
+      },
+      {
+        "type": "h2",
+        "text": "Taxas da azulzinha da Caixa"
+      },
+      {
+        "type": "list-ul",
+        "items": [
+          "Débito: a partir de 0,81%;",
+          "Crédito à vista: a partir de 1,27%;",
+          "Crédito parcelado de 2x a 6x: a partir de 1,48%;",
+          "Crédito parcelado de 7x a 12x: a partir de 1,92%."
+        ]
+      },
+      {
+        "type": "h2",
+        "text": "Quem pode contratar a maquininha caixa?"
+      },
+      {
+        "type": "paragraph",
+        "text": "A azulzinha é acessível para todos os tipos de negócios, desde pequenos empreendedores até grandes empresas, no entanto é preciso ter um CNPJ ativo para a aquisição da maquininha."
+      },
+      {
+        "type": "list-ul",
+        "items": [
+          "MEIs, pequenas empresas e grandes negócios: Não importa o tamanho do seu negócio, a azulzinha tem um modelo que se adapta às suas necessidades;",
+          "Não tem conta PJ? Veja como abrir a sua na CAIXA: Se você ainda não tem uma conta PJ, pode abrir facilmente na CAIXA e, assim, aproveitar todas as vantagens da azulzinha."
+        ]
+      },
+      {
+        "type": "h2",
+        "text": "Como contratar a maquininha azulzinha?"
+      },
+      {
+        "type": "paragraph",
+        "text": "Contratar a azulzinha é simples e rápido."
+      },
+      {
+        "type": "list-ul",
+        "items": [
+          "Fale com o gerente da sua conta CAIXA PJ: Se você já é cliente PJ, basta falar com o gerente da sua conta para conhecer as condições disponíveis;",
+          "Compareça a uma agência CAIXA e conheça as opções: Para novos clientes, é só visitar uma agência da CAIXA e conferir as soluções para o seu negócio."
+        ]
+      },
+      {
+        "type": "h2",
+        "text": "Serviços exclusivos para usuários da maquininha azulzinha"
+      },
+      {
+        "type": "paragraph",
+        "text": "Além das vantagens tradicionais, a azulzinha oferece serviços que simplificam ainda mais a vida do empreendedor."
+      },
+      {
+        "type": "h2",
+        "text": "Maquininha no celular"
+      },
+      {
+        "type": "paragraph",
+        "text": "Para quem prefere ainda mais praticidade, a Caixa também disponibiliza uma versão da maquininha que funciona integrada ao celular."
+      },
+      {
+        "type": "paragraph",
+        "text": "Dessa forma, por meio de um aplicativo simples e intuitivo, o empreendedor consegue realizar vendas de maneira rápida e segura, sem a necessidade de um equipamento físico robusto."
+      },
+      {
+        "type": "paragraph",
+        "text": "Além disso, essa opção é perfeita para autônomos, vendedores porta a porta e profissionais que trabalham em regime de mobilidade, basta ter um smartphone com conexão à internet e pronto: é possível vender em qualquer lugar."
+      },
+      {
+        "type": "paragraph",
+        "text": "Veja também: Como transformar o celular em maquininha de cartão? Confira!"
+      },
+      {
+        "type": "h2",
+        "text": "Dúvidas frequentes sobre a maquininha caixa"
+      },
+      {
+        "type": "h2",
+        "text": "Por que escolher a Maquininha Caixa?"
+      },
+      {
+        "type": "paragraph",
+        "text": "Se você deseja ampliar as formas de pagamento no seu negócio, contar com uma maquininha confiável faz toda a diferença."
+      },
+      {
+        "type": "paragraph",
+        "text": "Por isso, a Maquininha Caixa permite aceitar diversas bandeiras de cartões, incluindo crédito, débito e até vouchers. Além disso, o equipamento funciona com chip e Wi-Fi, garantindo mobilidade total.."
+      },
+      {
+        "type": "paragraph",
+        "text": "Por fim, agora que você conhece a maquininha da Caixa, utilize nosso simulador de vendas para saber exatamente quanto ficará no seu bolso após as taxas cobradas pelas empresas de maquininha."
+      }
+    ]
+  },
+  {
+    "thumbnail": "https://www.maquininha.com.br/wp-content/uploads/2020/01/imagem-destaque-maquininha-ideal-pagseguro-aceita-senff-1.png",
+    "category": "Bandeiras",
+    "link": "https://www.maquininha.com.br/pagseguro-aceita-senff-quais-maquinas-aceitam/",
+    "title": "PagSeguro aceita Senff? Quais máquinas aceitam?",
+    "metadata": "15 abr 2025 • 5 min",
+    "content": [
+      {
+        "type": "paragraph",
+        "text": "A dúvida “Pagseguro aceita Senff? Quais máquinas aceitam?” é comum entre empreendedores que desejam ampliar suas opções de pagamento."
+      },
+      {
+        "type": "paragraph",
+        "text": "Atualmente, o antigo PagSeguro se integrou ao PagBank e continua sendo uma das principais empresas do setor de maquininhas no Brasil. Mas afinal, será que as máquinas PagBank aceitam o cartão Senff?"
+      },
+      {
+        "type": "paragraph",
+        "text": "Neste artigo, vamos esclarecer essa questão e apresentar quais maquininhas de cartão são compatíveis com o Senff. Continue lendo!"
+      },
+      {
+        "type": "paragraph",
+        "text": "Veja também: PagBank ou PagSeguro: afinal, qual é o nome certo em 2025?"
+      },
+      {
+        "type": "h2",
+        "text": "O que é o cartão Senff?"
+      },
+      {
+        "type": "paragraph",
+        "text": "Antes de mais nada, é importante entender o que é o cartão Senff. Ele é um cartão de crédito emitido por uma administradora nacional, bastante utilizado em redes de varejo, postos de combustível, farmácias e supermercados."
+      },
+      {
+        "type": "paragraph",
+        "text": "Portanto, seu principal diferencial é o uso regionalizado, o que torna sua aceitação mais restrita em comparação a grandes bandeiras como Visa ou Mastercard."
+      },
+      {
+        "type": "h2",
+        "text": "PagSeguro aceita cartão Senff?"
+      },
+      {
+        "type": "paragraph",
+        "text": "Sim, o PagSeguro pode aceitar o cartão Senff, mas com uma condição importante: é necessário fazer um credenciamento prévio junto à bandeira Senff."
+      },
+      {
+        "type": "paragraph",
+        "text": "Ou seja, mesmo que a sua maquininha PagSeguro seja compatível com a rede, as transações com o cartão Senff só serão aprovadas após a autorização da própria bandeira."
+      },
+      {
+        "type": "paragraph",
+        "text": "Hoje, a Senff já está presente em mais de 80 mil estabelecimentos pelo Brasil, incluindo diversos terminais PagSeguro. No entanto, se o estabelecimento não estiver credenciado, a tentativa de venda será recusada no ato da transação."
+      },
+      {
+        "type": "paragraph",
+        "text": "Para ativar essa funcionalidade, o lojista deve solicitar o credenciamento diretamente no site oficial da Senff. Por fim, após a aprovação, o sistema libera o uso nas maquininhas habilitadas, permitindo que você aceite Senff com tranquilidade."
+      },
+      {
+        "type": "h2",
+        "text": "Maquininhas que aceitam o cartão Senff"
+      },
+      {
+        "type": "paragraph",
+        "text": "Confira abaixo uma lista com as principais maquininhas que aceitam Senff:"
+      },
+      {
+        "type": "paragraph",
+        "text": "Compacta, com chip e Wi-Fi integrados, as maquininhas PagBank oferece diversas vantagens, ela é ideal para quem busca mobilidade sem abrir mão de eficiência. Aceita Senff mediante credenciamento."
+      },
+      {
+        "type": "paragraph",
+        "text": "Mais robusta, com visor maior e bateria de longa duração. Perfeita para vendas em volume médio."
+      },
+      {
+        "type": "paragraph",
+        "text": "Com sistema Android e tela touchscreen, é a opção mais completa da PagBank. Também aceita Senff com ativação prévia da bandeira."
+      },
+      {
+        "type": "paragraph",
+        "text": "Famosa pela agilidade no processamento, é uma das maquininhas mais modernas da Cielo e compatível com Senff."
+      },
+      {
+        "type": "paragraph",
+        "text": "Modelo avançado da Stone, oferece sistema Android, tela touchscreen e impressão de comprovantes. Compatível com o cartão Senff após credenciamento junto à bandeira."
+      },
+      {
+        "type": "h2",
+        "text": "Principais cartões Senff"
+      },
+      {
+        "type": "paragraph",
+        "text": "A Senff é uma administradora de cartões com forte presença regional, especialmente no sul e sudeste do Brasil. Além disso, ela também oferece cartões próprios, que podem ser utilizados em milhares de estabelecimentos credenciados."
+      },
+      {
+        "type": "paragraph",
+        "text": "Veja a seguir os principais tipos de cartão Senff disponíveis no mercado:"
+      },
+      {
+        "type": "list-ol",
+        "items": [
+          "Cartão Senff Private Label – É o mais comum. Funciona exclusivamente na rede de lojas credenciadas que fazem parte do convênio com a Senff. Muito usado por redes varejistas que oferecem crédito próprio aos clientes;",
+          "Cartão Senff Multibenefícios – Voltado para empresas, permite a concessão de benefícios como vale-alimentação, refeição, combustível ou premiações. Ele pode ser configurado para uso em categorias específicas de estabelecimentos;",
+          "Cartão Senff Consignado – Indicado para aposentados, pensionistas e servidores públicos. As parcelas são descontadas diretamente na folha de pagamento, o que garante menor risco de inadimplência;",
+          "Cartão Senff Híbrido (Crédito + Benefícios) – Combina o uso como cartão de crédito tradicional e cartão de benefícios em um único produto. Isso facilita a gestão e amplia as possibilidades de uso;",
+          "Cartão Senff Empresarial – Destinado a empresas que precisam controlar despesas corporativas como viagens, combustível e alimentação dos colaboradores."
+        ]
+      },
+      {
+        "type": "h2",
+        "text": "Perguntas frequentes sobre o assunto"
+      },
+      {
+        "type": "h2",
+        "text": "Vantagens de aceitar o cartão Senff"
+      },
+      {
+        "type": "paragraph",
+        "text": "Aceitar o cartão Senff pode ser uma excelente forma de expandir suas vendas e conquistar a fidelidade de clientes que utilizam essa bandeira, especialmente em regiões onde ela é amplamente adotada."
+      },
+      {
+        "type": "paragraph",
+        "text": "Portanto, ao habilitar sua maquininha PagSeguro (ou outros modelos compatíveis) para transações com o cartão Senff, você:"
+      },
+      {
+        "type": "list-ul",
+        "items": [
+          "Amplia as formas de pagamento disponíveis para seus clientes;",
+          "Ganha mais competitividade no mercado regional;",
+          "Atrai novos públicos, especialmente usuários de benefícios ou cartões private label;",
+          "Oferece parcelamento sem juros, dependendo do tipo de cartão;",
+          "Aumenta o ticket médio, ao facilitar o acesso ao crédito."
+        ]
+      },
+      {
+        "type": "paragraph",
+        "text": "Além disso, o processo de credenciamento é simples e gratuito, podendo ser feito diretamente no site da Senff. Com isso, você garante mais oportunidades de venda sem precisar trocar de maquininha."
+      },
+      {
+        "type": "paragraph",
+        "text": "Em resumo, aceitar o cartão Senff é uma escolha inteligente para quem busca diversificar os meios de pagamento e fortalecer a presença no comércio local."
+      },
+      {
+        "type": "paragraph",
+        "text": "Continue lendo: Cartão de crédito PagBank: Conheça os benefícios!"
+      }
+    ]
+  },
+  {
+    "thumbnail": "https://www.maquininha.com.br/wp-content/uploads/2025/04/imagem-destaque-maquininha-ideal-cdb-pagbank-2.png",
+    "category": "Educacional",
+    "link": "https://www.maquininha.com.br/cdb-pagbank/",
+    "title": "CDB PagBank: Saiba como funciona!",
+    "metadata": "14 abr 2025 • 5 min",
+    "content": [
+      {
+        "type": "paragraph",
+        "text": "Se você busca uma alternativa de investimento com alta rentabilidade e baixo risco, o CDB PagBank pode ser a escolha ideal."
+      },
+      {
+        "type": "paragraph",
+        "text": "Oferecido pelo banco digital PagBank — conhecido também por soluções como conta digital gratuita e maquininha de cartão —, esse produto combina praticidade com rendimento acima da média do mercado, atraindo cada vez mais investidores que desejam ver seu dinheiro render mais, sem complicações."
+      },
+      {
+        "type": "paragraph",
+        "text": "Portanto, continue lendo para saber como funciona!"
+      },
+      {
+        "type": "table",
+        "headers": [
+          "",
+          "Máquina",
+          "Valor",
+          "Débito",
+          "Crédito (1x)",
+          "Crédito (12x)",
+          ""
+        ],
+        "rows": [
+          [
+            "Minizinha NFC 2 4.9 Valor R$ 16,68 à vista ou 12x de R$ 1,39 Débito A partir de 1,99% Crédito (1x) A partir de 3,19% Crédito (12x) A partir de 3,79% Peça agora URL Verificada",
+            "Minizinha NFC 2 4.9",
+            "R$ 16,68 à vista ou 12x de R$ 1,39",
+            "A partir de 1,99%",
+            "A partir de 3,19%",
+            "A partir de 3,79%",
+            "Peça agora URL Verificada"
+          ],
+          [
+            "Moderninha Pro 2 4.9 Valor R$ 226,80 à vista ou 12x de R$ 18,90 Débito A partir de 1,99% Crédito (1x) A partir de 3,19% Crédito (12x) A partir de 3,79% Peça agora URL Verificada",
+            "Moderninha Pro 2 4.9",
+            "R$ 226,80 à vista ou 12x de R$ 18,90",
+            "A partir de 1,99%",
+            "A partir de 3,19%",
+            "A partir de 3,79%",
+            "Peça agora URL Verificada"
+          ],
+          [
+            "Minizinha Chip 3 4.9 Valor R$ 69,60 à vista ou 12x de R$ 5,80 Débito A partir de 1,99% Crédito (1x) A partir de 3,19% Crédito (12x) A partir de 3,79% Peça agora URL Verificada",
+            "Minizinha Chip 3 4.9",
+            "R$ 69,60 à vista ou 12x de R$ 5,80",
+            "A partir de 1,99%",
+            "A partir de 3,19%",
+            "A partir de 3,79%",
+            "Peça agora URL Verificada"
+          ],
+          [
+            "Moderninha Plus 2 4.8 Valor R$ 118,80 à vista ou 12x de R$ 9,90 Débito A partir de 1,99% Crédito (1x) A partir de 3,19% Crédito (12x) A partir de 3,79% Peça agora URL Verificada",
+            "Moderninha Plus 2 4.8",
+            "R$ 118,80 à vista ou 12x de R$ 9,90",
+            "A partir de 1,99%",
+            "A partir de 3,19%",
+            "A partir de 3,79%",
+            "Peça agora URL Verificada"
+          ],
+          [
+            "Moderninha Smart 2 4.8 Valor R$ 298,80 à vista ou 12x de R$ 24,90 Débito A partir de 3,19% Crédito (1x) A partir de 3,79% Crédito (12x) A partir de 21,59% Peça agora URL Verificada",
+            "Moderninha Smart 2 4.8",
+            "R$ 298,80 à vista ou 12x de R$ 24,90",
+            "A partir de 3,19%",
+            "A partir de 3,79%",
+            "A partir de 21,59%",
+            "Peça agora URL Verificada"
+          ]
+        ]
+      },
+      {
+        "type": "h2",
+        "text": "Como funciona o CDB PagBank?"
+      },
+      {
+        "type": "paragraph",
+        "text": "O CDB PagBank é uma aplicação de renda fixa oferecida pelo banco digital PagBank. Ao investir nesse produto, você empresta seu dinheiro ao banco e, em troca, recebe o valor aplicado acrescido de juros no vencimento. Essa modalidade é ideal para quem busca segurança e rentabilidade superior à poupança."
+      },
+      {
+        "type": "list-ul",
+        "items": [
+          "Rentabilidade: O CDB PagBank oferece diferentes opções de rendimento, podendo chegar até 130% do CDI, dependendo do prazo e valor investido;",
+          "Segurança: Os investimentos são protegidos pelo Fundo Garantidor de Créditos (FGC) até R$ 250 mil por CPF ou CNPJ, garantindo maior tranquilidade ao investidor;",
+          "Liquidez: Algumas opções de CDBs do PagBank permitem resgates antes do vencimento, após um período de carência, oferecendo flexibilidade conforme suas necessidades;",
+          "Facilidade de investimento: A contratação é feita diretamente pelo aplicativo PagBank, tornando o processo simples e acessível;",
+          "Integração com cartão de crédito: Investindo a partir de R$ 300 em CDBs, você pode obter um cartão de crédito com limite garantido, igual ao valor aplicado, sem burocracia e com a vantagem de ver seu dinheiro render enquanto utiliza o cartão."
+        ]
+      },
+      {
+        "type": "paragraph",
+        "text": "Além disso, o PagBank oferece a funcionalidade de Poupar Automático CDB, permitindo que você invista automaticamente uma porcentagem de suas vendas diárias, ideal para quem utiliza a maquininha de cartão e deseja maximizar seus rendimentos de forma prática. ​"
+      },
+      {
+        "type": "h2",
+        "text": "Por que investir no CDB PagBank?"
+      },
+      {
+        "type": "paragraph",
+        "text": "Diferente de outras modalidades, o CDB do PagBank oferece liquidez diária em alguns planos, o que significa que você pode resgatar seu dinheiro a qualquer momento, sem perder rendimento."
+      },
+      {
+        "type": "paragraph",
+        "text": "Além disso, o investimento é garantido pelo Fundo Garantidor de Créditos (FGC) até R$ 250 mil por CPF, por instituição, o que aumenta ainda mais a segurança."
+      },
+      {
+        "type": "paragraph",
+        "text": "Outro ponto importante é a variedade de prazos e rendimentos. O PagBank 130% CDI, por exemplo, é uma das opções mais buscadas por oferecer um retorno expressivo para quem pode deixar o dinheiro aplicado por mais tempo."
+      },
+      {
+        "type": "paragraph",
+        "text": "Essa modalidade se destaca como uma excelente forma de planejar o futuro financeiro, seja para objetivos de curto, médio ou longo prazo."
+      },
+      {
+        "type": "paragraph",
+        "text": "Leia também: PagBank é de qual banco? Entenda a origem e segurança da fintech"
+      },
+      {
+        "type": "h2",
+        "text": "Como começar a investir?"
+      },
+      {
+        "type": "paragraph",
+        "text": "Investir no CDB PagBank é simples e rápido. Basta ter uma conta no aplicativo do banco, acessar a área de investimentos e escolher o CDB que melhor atende ao seu perfil e objetivos. Com poucos cliques, você já começa a fazer seu dinheiro trabalhar por você, com total controle pelo celular."
+      },
+      {
+        "type": "paragraph",
+        "text": "Além disso, o PagBank oferece simuladores e informações claras para ajudar o investidor a tomar a melhor decisão, sem burocracia e com total transparência."
+      },
+      {
+        "type": "paragraph",
+        "text": "Para lhe ajudar, preparamos um passo a passo de como abrir uma conta no PagBank."
+      },
+      {
+        "type": "h2",
+        "text": "Como calcular o rendimento de um CDB?"
+      },
+      {
+        "type": "paragraph",
+        "text": "Calcular o rendimento de um CDB, como o CDB PagBank, é mais simples do que parece. O primeiro passo é entender que a maioria desses investimentos tem sua rentabilidade atrelada ao CDI (Certificado de Depósito Interbancário), um índice usado como referência no mercado financeiro."
+      },
+      {
+        "type": "paragraph",
+        "text": "Vamos a um exemplo prático:"
+      },
+      {
+        "type": "paragraph",
+        "text": "Suponha que o CDI atual esteja em 10% ao ano e você invista em um CDB que rende 130% do CDI. Para saber o quanto seu dinheiro renderá, basta fazer o seguinte cálculo:"
+      },
+      {
+        "type": "paragraph",
+        "text": "130% de 10% = 13% ao ano"
+      },
+      {
+        "type": "paragraph",
+        "text": "Ou seja, seu CDB renderá 13% ao ano. Para saber quanto isso representa por mês ou por período investido, você pode dividir esse valor proporcionalmente ou usar um simulador de investimentos — como o que o próprio PagBank disponibiliza no app."
+      },
+      {
+        "type": "paragraph",
+        "text": "Além disso, é importante considerar:"
+      },
+      {
+        "type": "list-ul",
+        "items": [
+          "O prazo de vencimento: quanto maior o tempo que o dinheiro fica investido, maior tende a ser o retorno;",
+          "A tributação do Imposto de Renda: CDBs têm IR regressivo, começando em 22,5% para aplicações de até 180 dias e chegando a 15% após 720 dias;",
+          "Liquidez: CDBs com liquidez diária permitem resgate antes do vencimento, mas podem ter rentabilidade um pouco menor que os de vencimento fixo."
+        ]
+      },
+      {
+        "type": "h2",
+        "text": "Dúvidas frequentes sobre o CDB PagBank"
+      },
+      {
+        "type": "h2",
+        "text": "Afinal, quais as vantagens de investir no CDB PagBank?"
+      },
+      {
+        "type": "paragraph",
+        "text": "Investir no CDB PagBank é uma decisão inteligente para quem busca segurança, praticidade e rentabilidade acima da média."
+      },
+      {
+        "type": "paragraph",
+        "text": "Com opções que oferecem até 130% do CDI PagBank, você tem a chance de ver seu dinheiro render mais do que na poupança ou em fundos tradicionais, e ainda conta com a proteção do FGC."
+      },
+      {
+        "type": "paragraph",
+        "text": "Portanto, se a sua meta é fazer o dinheiro trabalhar por você com segurança e alta performance, o CDB PagBank é uma excelente escolha. Comece hoje mesmo a investir e aproveite todos os benefícios que o PagBank oferece!"
+      },
+      {
+        "type": "paragraph",
+        "text": "Continue lendo: Taxas das maquininhas PagBank: Conheça Agora!"
+      }
+    ]
+  }
+]
