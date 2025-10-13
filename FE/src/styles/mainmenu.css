@@ -1,0 +1,157 @@
+/* === Container chính === */
+.mainmenu-container {
+  width: 90%;
+  margin: 4rem auto;
+  text-align: center;
+}
+
+/* === Tiêu đề khu vực === */
+.mainmenu-title {
+  font-size: 2.3rem;
+  font-weight: 800;
+  color: #0f3d3d;
+  margin-bottom: 2.5rem;
+  letter-spacing: -0.5px;
+}
+
+/* === Lưới bài viết (card) === */
+.mainmenu-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(360px, 1fr));
+  gap: 2.5rem;
+  justify-items: center;
+}
+
+/* === Thẻ bài === */
+.article-card {
+  background: #ffffff;
+  border-radius: 18px;
+  overflow: hidden;
+  width: 100%;
+  max-width: 420px;
+  box-shadow: 0 8px 25px rgba(0, 0, 0, 0.08);
+  transition: all 0.3s ease;
+  border: 1px solid #e5e7eb;
+}
+
+.article-card:hover {
+  transform: translateY(-8px);
+  box-shadow: 0 14px 35px rgba(0, 0, 0, 0.12);
+}
+
+/* === Ảnh bài viết === */
+.article-image {
+  width: 100%;
+  height: 220px;
+  object-fit: cover;
+  transition: transform 0.3s ease;
+}
+
+.article-card:hover .article-image {
+  transform: scale(1.03);
+}
+
+/* === Nội dung bài === */
+.article-content {
+  padding: 1.75rem;
+  text-align: left;
+}
+
+/* === Danh mục === */
+.article-category {
+  display: inline-block;
+  background: #0f766e;
+  color: #fff;
+  font-size: 0.85rem;
+  padding: 0.4rem 0.9rem;
+  border-radius: 10px;
+  margin-bottom: 0.75rem;
+}
+
+/* === Tiêu đề bài viết === */
+.article-title {
+  font-size: 1.3rem;
+  font-weight: 700;
+  color: #0f3d3d;
+  margin: 0.75rem 0;
+  line-height: 1.6;
+}
+
+/* === Thông tin phụ === */
+.article-meta {
+  font-size: 0.9rem;
+  color: #6b7280;
+  margin-bottom: 0.75rem;
+}
+
+/* === Nút đọc thêm === */
+.article-link {
+  display: inline-block;
+  color: #0f766e;
+  font-weight: 700;
+  text-decoration: none;
+  transition: all 0.2s ease;
+}
+
+.article-link:hover {
+  text-decoration: underline;
+  color: #0d9488;
+}
+
+/* === Responsive === */
+@media (max-width: 1024px) {
+  .mainmenu-container {
+    width: 95%;
+  }
+}
+
+@media (max-width: 768px) {
+  .mainmenu-grid {
+    grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
+    gap: 1.8rem;
+  }
+
+  .mainmenu-title {
+    font-size: 1.9rem;
+  }
+
+  .article-image {
+    height: 200px;
+  }
+}
+
+@media (max-width: 480px) {
+  .mainmenu-grid {
+    grid-template-columns: 1fr;
+    gap: 1.5rem;
+  }
+
+  .mainmenu-title {
+    font-size: 1.6rem;
+  }
+  /* Pagination */
+.pagination {
+  margin-top: 2rem;
+  display: flex;
+  justify-content: center;
+  gap: 10px;
+}
+
+.page-btn {
+  background: white;
+  border: 1px solid #0f766e;
+  color: #0f766e;
+  border-radius: 6px;
+  padding: 6px 12px;
+  cursor: pointer;
+  font-weight: 600;
+  transition: all 0.2s ease;
+}
+
+.page-btn.active,
+.page-btn:hover {
+  background: #0f766e;
+  color: white;
+}
+
+}

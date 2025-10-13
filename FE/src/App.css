@@ -1,0 +1,20 @@
+body { margin: 0; font-family: Arial, sans-serif; }
+.App { min-height: 100vh; }
+@media (max-width: 768px) { .categories, .article-grid, .product-grid { flex-direction: column; } } /* Responsive */
+/* slick-carousel css */
+@import "slick-carousel/slick/slick.css"; 
+@import "slick-carousel/slick/slick-theme.css";
+/* Container đồng bộ */
+.container {
+  width: 75%;
+  margin: 0 auto;
+  max-width: 1400px;
+}
+
+/* Responsive */
+@media (max-width: 1024px) {
+  .container {
+    width: 90%;
+  }
+}
+
