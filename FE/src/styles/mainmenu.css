@@ -1,0 +1,272 @@
+/* ==== BỐ CỤC CHUNG ==== */
+.mainmenu-container {
+  width: 90%;
+  margin: 0 auto;
+  padding: 40px 0;
+  display: flex;
+  flex-direction: column;
+  gap: 3rem;
+}
+
+.mainmenu-title {
+  text-align: center;
+  font-size: 2rem;
+  font-weight: 800;
+  color: #024c4c;
+  margin-bottom: 1.5rem;
+  letter-spacing: -0.5px;
+}
+
+/* ==== BÀI VIẾT ==== */
+.mainmenu-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+  gap: 2rem;
+  justify-content: center;
+}
+
+.article-card {
+  background: #ffffff;
+  border-radius: 16px;
+  box-shadow: 0 8px 24px rgba(0, 0, 0, 0.08);
+  overflow: hidden;
+  transition: all 0.35s ease;
+  display: flex;
+  flex-direction: column;
+}
+
+.article-card:hover {
+  transform: translateY(-8px);
+  box-shadow: 0 12px 28px rgba(0, 0, 0, 0.12);
+}
+
+.article-image {
+  width: 100%;
+  height: 200px;
+  object-fit: cover;
+  transition: transform 0.4s ease;
+}
+
+.article-card:hover .article-image {
+  transform: scale(1.05);
+}
+
+.article-content {
+  padding: 20px 22px 24px;
+  flex-grow: 1;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+
+.article-category {
+  display: inline-block;
+  background: #e1faf6;
+  color: #00796b;
+  padding: 4px 12px;
+  border-radius: 30px;
+  font-size: 0.8rem;
+  font-weight: 600;
+  letter-spacing: 0.3px;
+  margin-bottom: 10px;
+  text-transform: uppercase;
+}
+
+.article-title {
+  font-size: 1.1rem;
+  font-weight: 800;
+  color: #024c4c;
+  margin: 8px 0 10px;
+  line-height: 1.4;
+  transition: color 0.2s ease;
+}
+
+.article-title:hover {
+  color: #009688;
+}
+
+.article-meta {
+  font-size: 0.85rem;
+  color: #777;
+  margin-bottom: 12px;
+}
+
+.article-link {
+  text-decoration: none;
+  color: #009688;
+  font-weight: 600;
+  display: inline-flex;
+  align-items: center;
+  gap: 6px;
+  transition: all 0.2s ease;
+}
+
+.article-link::after {
+  content: "→";
+  transition: transform 0.2s ease;
+}
+
+.article-link:hover::after {
+  transform: translateX(4px);
+}
+
+.article-link:hover {
+  color: #004c4c;
+}
+
+/* ==== PHÂN TRANG ==== */
+.pagination {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 8px;
+  margin-top: 2rem;
+}
+
+.page-btn {
+  border: 1.5px solid #024c4c;
+  background: white;
+  color: #024c4c;
+  padding: 6px 12px;
+  border-radius: 10px;
+  cursor: pointer;
+  font-weight: 600;
+  transition: all 0.25s ease;
+  min-width: 34px;
+}
+
+.page-btn:hover {
+  background: #024c4c;
+  color: white;
+}
+
+.page-btn.active {
+  background: #024c4c;
+  color: white;
+  transform: scale(1.05);
+}
+
+/* ==== RESPONSIVE ==== */
+@media (max-width: 768px) {
+  .mainmenu-container {
+    width: 95%;
+    padding: 20px 0;
+  }
+
+  .article-image {
+    height: 180px;
+  }
+
+  .article-content {
+    padding: 16px;
+  }
+}
+
+
+/* ==== MÁY MÓC NỔI BẬT ==== */
+.machine-highlight {
+  background: #024c4c;
+  color: white;
+  border-radius: 20px;
+  padding: 2.5rem;
+  text-align: center;
+  box-shadow: 0 12px 30px rgba(0, 0, 0, 0.15);
+  transition: all 0.3s ease;
+}
+.machine-highlight:hover {
+  box-shadow: 0 16px 40px rgba(0, 0, 0, 0.2);
+}
+
+.machine-card-large {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content: center;
+  gap: 2rem;
+}
+
+.machine-img-large {
+  width: 200px;
+  border-radius: 12px;
+  background: white;
+  padding: 10px;
+}
+
+.machine-info-large {
+  max-width: 400px;
+  text-align: left;
+}
+
+.machine-info-large h3 {
+  font-size: 1.6rem;
+  margin-bottom: 1rem;
+}
+
+.machine-info-large p {
+  font-size: 0.95rem;
+  color: #e2f2f0;
+}
+
+.machine-btns {
+  display: flex;
+  gap: 1rem;
+  margin-top: 1.2rem;
+  flex-wrap: wrap;
+}
+
+.btn-primary {
+  background: #00bfa5;
+  color: white;
+  font-weight: 700;
+  padding: 10px 20px;
+  border-radius: 8px;
+  text-decoration: none;
+  transition: background 0.3s ease;
+}
+
+.btn-primary:hover {
+  background: #009688;
+}
+
+.btn-outline {
+  background: white;
+  color: #024c4c;
+  font-weight: 700;
+  padding: 10px 20px;
+  border-radius: 8px;
+  text-decoration: none;
+  border: 1px solid transparent;
+  transition: all 0.3s ease;
+}
+
+.btn-outline:hover {
+  background: #e2f2f0;
+  border-color: #00bfa5;
+}
+
+/* ==== DẤU CHẤM CHO MÁY ==== */
+.machine-dots {
+  margin-top: 1.2rem;
+  display: flex;
+  justify-content: center;
+  gap: 10px;
+}
+
+.dot {
+  width: 10px;
+  height: 10px;
+  background-color: #c0e4dd;
+  border-radius: 50%;
+  cursor: pointer;
+  transition: all 0.3s ease;
+}
+
+.dot:hover {
+  background-color: #00bfa5;
+  transform: scale(1.2);
+}
+
+.dot.active {
+  background-color: #00bfa5;
+  transform: scale(1.4);
+}

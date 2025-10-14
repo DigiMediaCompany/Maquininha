@@ -1,0 +1,92 @@
+.home-container {
+  background-color: #f9fafb;
+  padding-bottom: 3rem;
+}
+
+.latest-section {
+  width: 90%;
+  max-width: 1200px;
+  margin: 4rem auto;
+  text-align: center;
+}
+
+.section-title {
+  font-size: 2rem;
+  font-weight: 800;
+  color: #0f3d3d;
+  margin-bottom: 2.5rem;
+}
+
+/* === BÀI VIẾT === */
+.articles-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(340px, 1fr));
+  gap: 2.5rem;
+  justify-items: center;
+}
+
+.article-card {
+  background: white;
+  border-radius: 16px;
+  overflow: hidden;
+  box-shadow: 0 6px 18px rgba(0, 0, 0, 0.08);
+  transition: all 0.3s ease;
+  max-width: 380px;
+  text-align: left;
+}
+
+.article-card:hover {
+  transform: translateY(-6px);
+  box-shadow: 0 10px 25px rgba(0, 0, 0, 0.15);
+}
+
+.article-img {
+  width: 100%;
+  height: 200px;
+  object-fit: cover;
+}
+
+.article-info {
+  padding: 1.5rem;
+}
+
+.article-title {
+  font-size: 1.25rem;
+  font-weight: 700;
+  color: #0f3d3d;
+  margin-bottom: 0.75rem;
+}
+
+.article-excerpt {
+  font-size: 0.95rem;
+  color: #4b5563;
+  margin-bottom: 1rem;
+  line-height: 1.5;
+}
+
+.article-link {
+  font-weight: 700;
+  color: #0f766e;
+  text-decoration: none;
+  transition: color 0.2s ease;
+}
+
+.article-link:hover {
+  text-decoration: underline;
+  color: #0d9488;
+}
+
+/* === MOBILE === */
+@media (max-width: 640px) {
+  .latest-section {
+    width: 95%;
+  }
+
+  .section-title {
+    font-size: 1.75rem;
+  }
+
+  .article-img {
+    height: 180px;
+  }
+}

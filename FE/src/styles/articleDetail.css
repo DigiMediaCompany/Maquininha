@@ -1,0 +1,53 @@
+.article-container {
+  max-width: 800px;
+  margin: 40px auto;
+  padding: 20px;
+}
+
+.article-title {
+  font-size: 2rem;
+  margin-bottom: 0.5rem;
+  color: #024c4c;
+}
+
+.article-meta {
+  color: #666;
+  margin-bottom: 1rem;
+}
+
+.article-thumbnail {
+  width: 100%;
+  border-radius: 12px;
+  margin-bottom: 1.5rem;
+}
+
+.article-content {
+  line-height: 1.7;
+  color: #333;
+}
+
+.related-section {
+  margin-top: 3rem;
+}
+
+.related-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(220px, 1fr));
+  gap: 1rem;
+}
+.related-card {
+  background: #f9f9f9;
+  border-radius: 10px;
+  overflow: hidden;
+  text-decoration: none;
+  color: inherit;
+}
+.related-card img {
+  width: 100%;
+  height: 150px;
+  object-fit: cover;
+}
+.related-card p {
+  padding: 10px;
+  font-weight: 500;
+}

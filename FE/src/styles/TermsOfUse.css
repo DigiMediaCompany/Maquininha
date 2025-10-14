@@ -1,0 +1,38 @@
+/* TermsOfUse.css */
+.terms-container {
+  max-width: 800px;
+  margin: 0 auto;
+  padding: 20px;
+  font-family: Arial, sans-serif;
+  line-height: 1.6;
+  background-color: #f9fafb; /* Matches bg-gray-50 */
+  color: #05272e; /* Matches text color from original HTML */
+}
+
+.effective-date {
+  font-style: italic;
+  margin-bottom: 20px;
+  color: #4b5563; /* Gray-600 for subtle contrast */
+}
+
+.terms-section {
+  margin-bottom: 30px;
+}
+
+.terms-section h2 {
+  color: #1f6c7a; /* Primary color from original HTML */
+  border-bottom: 1px solid #e5e7eb; /* Gray-200 for consistency */
+  padding-bottom: 10px;
+  font-size: 1.5rem;
+  font-weight: 600;
+}
+
+@media (max-width: 640px) {
+  .terms-container {
+    padding: 15px;
+  }
+
+  .terms-section h2 {
+    font-size: 1.25rem;
+  }
+}
