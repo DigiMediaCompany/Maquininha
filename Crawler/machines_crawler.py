@@ -1,10 +1,13 @@
 import requests
 from bs4 import BeautifulSoup
 import re
-import time
-# ================= CONFIG =================
-BASE_URL = "https://www.maquininha.com.br/"  # URL to fetch HTML content from
-API_ENDPOINT = "https://d1-admin.vinhdtq123123123.workers.dev/maquininha/machines?bulk=true"  # API endpoint for bulk upload
+import os
+from dotenv import load_dotenv
+
+load_dotenv()
+
+MAQUININHA_URL = os.getenv("MAQUININHA_URL")
+API_ENDPOINT = os.getenv("API_ENDPOINT")
 
 # ================= SCRAPE PAGE =================
 def scrape_page_from_html(html):
@@ -71,7 +74,7 @@ RETRY_DELAY = 2  # seconds
 # ================= MAIN =================
 # Fetch the main page with retries
 for attempt in range(1, MAX_RETRIES + 1):
-    response = requests.get(BASE_URL)
+    response = requests.get(MAQUININHA_URL)
     if response.status_code == 200:
         break
     else:

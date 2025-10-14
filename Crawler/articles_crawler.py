@@ -2,9 +2,13 @@ import requests
 from bs4 import BeautifulSoup
 import re
 import time
-# ================= CONFIG =================
-BASE_URL = "https://www.maquininha.com.br/recents/page/{}/"  #  URL to fetch HTML content from
-API_ENDPOINT = "https://d1-admin.vinhdtq123123123.workers.dev/maquininha/articles?bulk=true"
+import os
+from dotenv import load_dotenv
+
+load_dotenv()
+
+MAQUININHA_URL = os.getenv("MAQUININHA_URL")
+API_ENDPOINT = os.getenv("API_ENDPOINT")
 
 # ================= SCRAPE PAGE =================
 def scrape_page(html):
@@ -64,12 +68,12 @@ def scrape_detail(html):
 all_articles = []
 MAX_RETRIES = 3
 RETRY_DELAY = 2
-for page in range(6, 8):
+for page in range(13, 14):
     print(f"Scraping page {page}...")
 
     # Retry logic for page request
     for attempt in range(1, MAX_RETRIES + 1):
-        resp = requests.get(BASE_URL.format(page))
+        resp = requests.get(MAQUININHA_URL.format(page))
         if resp.status_code == 200:
             break
         else:
@@ -108,5 +112,6 @@ for page in range(6, 8):
     upload_resp = requests.post(API_ENDPOINT, json=page_results)
     if upload_resp.status_code in (200, 201):
         print(f"✅ Page {page} upload successful!")
+        
     else:
         print(f"❌ Page {page} upload failed: {upload_resp.status_code}, {upload_resp.text}")
