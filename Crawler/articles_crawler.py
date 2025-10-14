@@ -68,7 +68,7 @@ def scrape_detail(html):
 all_articles = []
 MAX_RETRIES = 3
 RETRY_DELAY = 2
-for page in range(1, 5):
+for page in range(5, 10):
     print(f"Scraping page {page}...")
 
     # Retry logic for page request
