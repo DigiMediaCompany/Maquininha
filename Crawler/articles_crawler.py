@@ -8,7 +8,7 @@ from dotenv import load_dotenv
 load_dotenv()
 
 MAQUININHA_URL = os.getenv("MAQUININHA_URL")
-API_ENDPOINT = os.getenv("API_ENDPOINT")
+MAQUININHA_ARTICLES_API_ENDPOINT = os.getenv("MAQUININHA_ARTICLES_API_ENDPOINT")
 
 # ================= SCRAPE PAGE =================
 def scrape_page(html):
@@ -68,7 +68,7 @@ def scrape_detail(html):
 all_articles = []
 MAX_RETRIES = 3
 RETRY_DELAY = 2
-for page in range(13, 14):
+for page in range(1, 5):
     print(f"Scraping page {page}...")
 
     # Retry logic for page request
@@ -109,7 +109,7 @@ for page in range(13, 14):
 
     # Upload **this page only**
     print(f"Uploading {len(page_results)} articles from page {page}...")
-    upload_resp = requests.post(API_ENDPOINT, json=page_results)
+    upload_resp = requests.post(MAQUININHA_ARTICLES_API_ENDPOINT, json=page_results)
     if upload_resp.status_code in (200, 201):
         print(f"✅ Page {page} upload successful!")
         

@@ -3,11 +3,12 @@ from bs4 import BeautifulSoup
 import re
 import os
 from dotenv import load_dotenv
+import time
 
 load_dotenv()
 
 MAQUININHA_URL = os.getenv("MAQUININHA_URL")
-API_ENDPOINT = os.getenv("API_ENDPOINT")
+MAQUININHA_MACHINES_API_ENDPOINT = os.getenv("MAQUININHA_MACHINES_API_ENDPOINT")
 
 # ================= SCRAPE PAGE =================
 def scrape_page_from_html(html):
@@ -74,7 +75,7 @@ RETRY_DELAY = 2  # seconds
 # ================= MAIN =================
 # Fetch the main page with retries
 for attempt in range(1, MAX_RETRIES + 1):
-    response = requests.get(MAQUININHA_URL)
+    response = requests.get(MAQUININHA_URL.format(1))
     if response.status_code == 200:
         break
     else:
@@ -108,7 +109,7 @@ for r in page_results:
                     r["content"] = ""
 # ================= UPLOAD BATCH =================
 print(f"Uploading {len(page_results)} machines to API...")
-upload_resp = requests.post(API_ENDPOINT, json=page_results)
+upload_resp = requests.post(MAQUININHA_MACHINES_API_ENDPOINT, json=page_results)
 if upload_resp.status_code in (200, 201):
     print("✅ Upload successful!")
 else:
