@@ -4,12 +4,24 @@ import re
 import time
 import os
 from dotenv import load_dotenv
-
+import unicodedata
 load_dotenv()
 
 MAQUININHA_URL = os.getenv("MAQUININHA_URL")
 MAQUININHA_ARTICLES_API_ENDPOINT = os.getenv("MAQUININHA_ARTICLES_API_ENDPOINT")
 
+
+# ================= SLUGIFY FUNCTION =================
+def slugify(text):
+    # Normalize Unicode (remove accents)
+    text = unicodedata.normalize('NFKD', text).encode('ascii', 'ignore').decode('utf-8')
+    # Lowercase
+    text = text.lower()
+    # Replace any non-alphanumeric character with '-'
+    text = re.sub(r'[^a-z0-9]+', '-', text)
+    # Strip leading/trailing '-'
+    text = text.strip('-')
+    return text
 # ================= SCRAPE PAGE =================
 def scrape_page(html):
     soup = BeautifulSoup(html, "html.parser")
@@ -40,6 +52,7 @@ def scrape_page(html):
             "link": link,
             "title": title,
             "date": date,
+            "slug": slugify(title),
             "duration": duration
         })
 
@@ -68,7 +81,7 @@ def scrape_detail(html):
 all_articles = []
 MAX_RETRIES = 3
 RETRY_DELAY = 2
-for page in range(5, 10):
+for page in range(1, 3):
     print(f"Scraping page {page}...")
 
     # Retry logic for page request
@@ -106,7 +119,9 @@ for page in range(5, 10):
                         print("   Retrying...")
                     else:
                         r["content"] = ""
-
+    for r in page_results:
+            if "link" in r:
+                del r["link"]
     # Upload **this page only**
     print(f"Uploading {len(page_results)} articles from page {page}...")
     upload_resp = requests.post(MAQUININHA_ARTICLES_API_ENDPOINT, json=page_results)

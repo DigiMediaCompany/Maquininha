@@ -4,12 +4,22 @@ import re
 import os
 from dotenv import load_dotenv
 import time
-
+import unicodedata
 load_dotenv()
 
 MAQUININHA_URL = os.getenv("MAQUININHA_URL")
 MAQUININHA_MACHINES_API_ENDPOINT = os.getenv("MAQUININHA_MACHINES_API_ENDPOINT")
-
+# ================= SLUGIFY FUNCTION =================
+def slugify(text):
+    # Normalize Unicode (remove accents)
+    text = unicodedata.normalize('NFKD', text).encode('ascii', 'ignore').decode('utf-8')
+    # Lowercase
+    text = text.lower()
+    # Replace any non-alphanumeric character with '-'
+    text = re.sub(r'[^a-z0-9]+', '-', text)
+    # Strip leading/trailing '-'
+    text = text.strip('-')
+    return text
 # ================= SCRAPE PAGE =================
 def scrape_page_from_html(html):
     """
@@ -37,6 +47,7 @@ def scrape_page_from_html(html):
         if title and thumb and link:
             results.append({
                 "link": link,
+                "slug": slugify(title),
                 "thumbnail": thumb,
                 "title": title
             })
@@ -107,7 +118,11 @@ for r in page_results:
                 else:
                     print("   Max retries reached for this detail page.")
                     r["content"] = ""
+                    
 # ================= UPLOAD BATCH =================
+for r in page_results:
+        if "link" in r:
+            del r["link"]
 print(f"Uploading {len(page_results)} machines to API...")
 upload_resp = requests.post(MAQUININHA_MACHINES_API_ENDPOINT, json=page_results)
 if upload_resp.status_code in (200, 201):
