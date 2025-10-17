@@ -7,12 +7,12 @@ export default function ArticleList() {
   const articlesPerPage = 3;
   const [loading, setLoading] = useState(true);
 
-  // Gọi API thật
+  // 🔹 Gọi API thật
   useEffect(() => {
     async function fetchArticles() {
       try {
         const res = await fetch(
-          "https://d1-admin.vinhdtq123123123.workers.dev/maquininha/articles"
+          "https://d1-admin.vinhdtq123123123.workers.dev/maquininha-articles?limit=100"
         );
         const data = await res.json();
         if (data?.data) setArticles(data.data);
@@ -25,7 +25,7 @@ export default function ArticleList() {
     fetchArticles();
   }, []);
 
-  // Phân trang
+  // 🔹 Phân trang
   const indexOfLast = currentPage * articlesPerPage;
   const indexOfFirst = indexOfLast - articlesPerPage;
   const currentArticles = articles.slice(indexOfFirst, indexOfLast);
@@ -34,7 +34,7 @@ export default function ArticleList() {
   const changePage = (page) => {
     if (page >= 1 && page <= totalPages) {
       setCurrentPage(page);
-      window.scrollTo({ top: 0, behavior: "smooth" }); // cuộn lên đầu khi đổi trang
+      window.scrollTo({ top: 0, behavior: "smooth" });
     }
   };
 
@@ -42,11 +42,11 @@ export default function ArticleList() {
 
   return (
     <section className="articles-section">
-      <h2 className="articles-title">📰 Artigos gần đây</h2>
+      <h2 className="articles-title">📰 Bài viết gần đây</h2>
 
       <div className="articles-grid">
-        {currentArticles.map((a, i) => (
-          <div key={i} className="article-card">
+        {currentArticles.map((a) => (
+          <div key={a.id} className="article-card">
             <img
               src={a.thumbnail || "https://via.placeholder.com/400x200"}
               alt={a.title}
@@ -58,18 +58,17 @@ export default function ArticleList() {
               <p className="article-meta">
                 {a.date} • {a.duration || "3 phút"}
               </p>
-              <Link
-                to={`/article/${encodeURIComponent(a.title)}`}
-                className="article-link"
-              >
-                ĐỌC THÊM →
+
+          
+              <Link to={`/article/${a.id}`} className="article-link">
+                  ĐỌC THÊM →
               </Link>
             </div>
           </div>
         ))}
       </div>
 
-      {/* --- PHÂN TRANG DẠNG SỐ --- */}
+      {/* ✅ PHÂN TRANG */}
       {totalPages > 1 && (
         <div className="pagination-container">
           <button

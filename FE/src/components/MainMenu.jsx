@@ -4,91 +4,63 @@ import "../styles/mainmenu.css";
 import Pagination from "../components/Pagination";
 
 export default function MainMenu() {
-  // ----------------------------
-  // BÀI VIẾT
-  // ----------------------------
   const [articles, setArticles] = useState([]);
+  const [machines, setMachines] = useState([]);
+  const [loading, setLoading] = useState(true);
   const [currentArticlePage, setCurrentArticlePage] = useState(1);
+  const [currentMachine, setCurrentMachine] = useState(1);
   const articlesPerPage = 3;
-  const [loadingArticles, setLoadingArticles] = useState(true);
 
   useEffect(() => {
-    async function fetchArticles() {
+    async function fetchData() {
       try {
-        const res = await fetch(
-          "https://d1-admin.vinhdtq123123123.workers.dev/maquininha/articles?limit=100"
-        );
-        const data = await res.json();
-        if (data?.data) setArticles(data.data);
+        const [aRes, mRes] = await Promise.all([
+          fetch("https://d1-admin.vinhdtq123123123.workers.dev/maquininha-articles/"),
+          fetch("https://d1-admin.vinhdtq123123123.workers.dev/maquininha-machines/"),
+        ]);
+        const [aData, mData] = await Promise.all([aRes.json(), mRes.json()]);
+
+        // ✅ Chuẩn hoá bài viết
+        if (Array.isArray(aData.data)) setArticles(aData.data);
+        else if (Array.isArray(aData)) setArticles(aData);
+        else if (aData && typeof aData === "object") setArticles([aData]);
+
+        // ✅ Chuẩn hoá máy móc
+        if (Array.isArray(mData.data)) setMachines(mData.data);
+        else if (Array.isArray(mData)) setMachines(mData);
+        else if (mData && typeof mData === "object") setMachines([mData]);
       } catch (err) {
-        console.error("Lỗi tải bài viết:", err);
+        console.error("❌ Lỗi tải dữ liệu:", err);
       } finally {
-        setLoadingArticles(false);
+        setLoading(false);
       }
     }
-    fetchArticles();
+    fetchData();
   }, []);
+
+  if (loading) return <p>Đang tải dữ liệu...</p>;
 
   const indexOfLastArticle = currentArticlePage * articlesPerPage;
   const indexOfFirstArticle = indexOfLastArticle - articlesPerPage;
-  const currentArticles = articles.slice(
-    indexOfFirstArticle,
-    indexOfLastArticle
-  );
+  const currentArticles = articles.slice(indexOfFirstArticle, indexOfLastArticle);
   const totalArticlePages = Math.ceil(articles.length / articlesPerPage);
-
-  // ----------------------------
-  // MÁY MÓC NỔI BẬT
-  // ----------------------------
-  const [machines, setMachines] = useState([]);
-  const [currentMachine, setCurrentMachine] = useState(1);
-  const [loadingMachines, setLoadingMachines] = useState(true);
-
-  useEffect(() => {
-    async function fetchMachines() {
-      try {
-        const res = await fetch(
-          "https://d1-admin.vinhdtq123123123.workers.dev/maquininha/machines"
-        );
-        const data = await res.json();
-        if (data?.data) setMachines(data.data);
-      } catch (err) {
-        console.error("Lỗi tải máy:", err);
-      } finally {
-        setLoadingMachines(false);
-      }
-    }
-    fetchMachines();
-  }, []);
-
-  if (loadingArticles || loadingMachines)
-    return <p className="loading-text">Đang tải dữ liệu...</p>;
-
   const currentM = machines[currentMachine - 1];
 
   return (
     <section className="mainmenu-container">
-      {/* ==================== PHẦN 1: BÀI VIẾT ==================== */}
+      {/* === BÀI VIẾT === */}
       <h2 className="mainmenu-title">📰 Bài viết mới nhất</h2>
-
       <div className="mainmenu-grid">
         {currentArticles.map((a) => (
-          <div key={a.title} className="article-card">
-            <img
-              src={a.thumbnail || "https://via.placeholder.com/400x200"}
-              alt={a.title}
-              className="article-image"
-            />
+          <div key={a.id || a.slug} className="article-card">
+            <img src={a.thumbnail || "https://via.placeholder.com/400x200"} alt={a.title} />
             <div className="article-content">
-              <span className="article-category">{a.category}</span>
+              <span className="article-category">{a.category || "Tin tức"}</span>
               <h3 className="article-title">{a.title}</h3>
               <p className="article-meta">
-                {a.date} • {a.duration || "—"}
+                {a.date} • {a.duration || "3 phút"}
               </p>
-              <Link
-                to={`/article/${encodeURIComponent(a.title)}`}
-                className="article-link"
-              >
+              <Link to={`/article/${a.slug || a.id}`} className="article-link">
                 ĐỌC THÊM →
               </Link>
             </div>
@@ -96,7 +68,6 @@ export default function MainMenu() {
         ))}
       </div>
 
-      {/* ✅ PHÂN TRANG CHO BÀI VIẾT */}
       {totalArticlePages > 1 && (
         <Pagination
           totalPages={totalArticlePages}
@@ -105,20 +76,17 @@ export default function MainMenu() {
         />
       )}
 
-      {/* ==================== PHẦN 2: MÁY MÓC ==================== */}
+      {/* === MÁY MÓC NỔI BẬT === */}
       <h2 className="mainmenu-title">💳 Máy móc nổi bật</h2>
-
       {currentM && (
         <div className="machine-highlight">
           <div className="machine-card-large">
             <img
               src={currentM.thumbnail || "https://via.placeholder.com/250x250"}
               alt={currentM.title}
-              className="machine-img-large"
             />
             <div className="machine-info-large">
               <h3>{currentM.title}</h3>
-              <p>{currentM.description}</p>
               <div className="machine-btns">
                 <a
                   href={currentM.link || "#"}
@@ -128,17 +96,13 @@ export default function MainMenu() {
                 >
                   ĐẶT HÀNG NGAY
                 </a>
-                <Link
-                  to={`/machine/${encodeURIComponent(currentM.title)}`}
-                  className="btn-outline"
-                >
+                <Link to={`/machine/${currentM.slug || currentM.id}`} className="btn-outline">
                   XEM CHI TIẾT →
                 </Link>
               </div>
             </div>
           </div>
 
-          {/* ✅ 4 DẤU CHẤM PHÂN TRANG MÁY */}
           <div className="machine-dots">
             {machines.slice(0, 4).map((_, i) => (
               <span

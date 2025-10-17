@@ -1,91 +1,56 @@
+// src/pages/MachineDetail.jsx
 import React, { useEffect, useState } from "react";
-import { useParams, Link } from "react-router-dom";
-import DOMPurify from "dompurify";
-import "../styles/machineDetail.css";
+import { useParams, useNavigate } from "react-router-dom";
+import "../styles/detail.css";
 
 export default function MachineDetail() {
-  const { title } = useParams();
+  const { slug } = useParams();
+  const navigate = useNavigate();
   const [machine, setMachine] = useState(null);
   const [loading, setLoading] = useState(true);
-  const [error, setError] = useState(false);
 
   useEffect(() => {
     async function fetchMachine() {
       try {
-        const res = await fetch(
-          "https://d1-admin.vinhdtq123123123.workers.dev/maquininha/machines"
+        const listRes = await fetch(
+          "https://d1-admin.vinhdtq123123123.workers.dev/maquininha-machines/"
         );
-        const data = await res.json();
-        const found = data?.data?.find(
-          (item) => item.title === decodeURIComponent(title)
+        const listData = await listRes.json();
+        const found = listData.data.find((m) => m.slug === slug);
+        if (!found) throw new Error("Không tìm thấy máy");
+        const detailRes = await fetch(
+          `https://d1-admin.vinhdtq123123123.workers.dev/maquininha-machines/${found.id}`
         );
-        if (found) {
-          setMachine(found);
-        } else {
-          setError(true);
-        }
+        const detailData = await detailRes.json();
+        setMachine(detailData);
       } catch (err) {
-        console.error("Lỗi tải chi tiết máy:", err);
-        setError(true);
+        console.error("❌ Lỗi tải chi tiết máy:", err);
       } finally {
         setLoading(false);
       }
     }
-
     fetchMachine();
-  }, [title]);
+  }, [slug]);
 
-  if (loading)
-    return <p className="loading">⏳ Đang tải chi tiết máy...</p>;
-
-  if (error || !machine)
-    return (
-      <div className="machine-notfound text-center">
-        <h2>❌ Không tìm thấy thông tin máy!</h2>
-        <Link to="/" className="home-btn-top">
-          ← Quay lại trang chính
-        </Link>
-      </div>
-    );
+  if (loading) return <p className="loading-text">Đang tải chi tiết máy...</p>;
+  if (!machine) return <p>Không tìm thấy dữ liệu máy.</p>;
 
   return (
-    <div className="machine-detail-container">
-      {/* 🔙 Nút quay lại ở đầu trang */}
-      <div className="machine-back-top">
-        <Link to="/" className="home-btn-top">
-          ← Quay lại trang chính
-        </Link>
-      </div>
+    <section className="detail-container">
+      <button className="back-btn" onClick={() => navigate(-1)}>
+        ← Quay lại
+      </button>
 
-      <div className="machine-header">
-        <h1>{machine.title}</h1>
-        <p className="machine-subtitle">
-          Thông tin chi tiết và ưu đãi mới nhất
-        </p>
-      </div>
-
-      <div className="machine-thumbnail">
-        <img src={machine.thumbnail} alt={machine.title} />
-      </div>
-
-      <article
-        className="machine-content"
-        dangerouslySetInnerHTML={{
-          __html: DOMPurify.sanitize(machine.content),
-        }}
+      <h1 className="detail-title">{machine.title}</h1>
+      <img
+        src={machine.thumbnail}
+        alt={machine.title}
+        className="detail-image"
       />
-
-      {/* 🛒 Chỉ giữ nút đặt hàng */}
-      <div className="machine-footer">
-        <a
-          href={machine.link}
-          target="_blank"
-          rel="noopener noreferrer"
-          className="order-btn"
-        >
-          🛒 Đặt máy ngay
-        </a>
-      </div>
-    </div>
+      <article
+        className="detail-content"
+        dangerouslySetInnerHTML={{ __html: machine.content }}
+      />
+    </section>
   );
 }
