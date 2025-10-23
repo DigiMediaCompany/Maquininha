@@ -1,12 +1,8 @@
-import React from "react";
-import StaticPage from "../components/StaticPage";
-import { privacyPolicyContent } from "../data/siteData";
+import React from 'react';
+import StaticPageLayout from '../layouts/StaticPageLayout';
 
-export default function PrivacyPolicy() {
-  return (
-    <StaticPage
-      title={privacyPolicyContent.title}
-      sections={privacyPolicyContent.sections}
-    />
-  );
-}
+const Privacy = () => {
+  return <StaticPageLayout pageType="privacy" />;
+};
+
+export default Privacy;

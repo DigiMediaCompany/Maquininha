@@ -1,12 +1,8 @@
-import React from "react";
-import StaticPage from "../components/StaticPage";
-import { contactContent } from "../data/siteData";
+import React from 'react';
+import StaticPageLayout from '../layouts/StaticPageLayout';
 
-export default function Contact() {
-  return (
-    <StaticPage
-      title={contactContent.title}
-      sections={contactContent.sections}
-    />
-  );
-}
+const Contact = () => {
+  return <StaticPageLayout pageType="contact" />;
+};
+
+export default Contact;

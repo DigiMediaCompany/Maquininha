@@ -15,7 +15,7 @@ export default function MainMenu() {
     async function fetchData() {
       try {
         const [aRes, mRes] = await Promise.all([
-          fetch("https://d1-admin.vinhdtq123123123.workers.dev/maquininha-articles/"),
+          fetch("https://d1-admin.vinhdtq123123123.workers.dev/maquininha-articles/?limit=200"),
           fetch("https://d1-admin.vinhdtq123123123.workers.dev/maquininha-machines/"),
         ]);
         const [aData, mData] = await Promise.all([aRes.json(), mRes.json()]);

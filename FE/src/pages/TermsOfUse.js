@@ -1,18 +1,8 @@
-// src/pages/TermsOfUse.js
-import React from "react";
-import StaticPage from "../components/StaticPage";
-import { termsOfUseContent } from "../data/siteData";
+import React from 'react';
+import StaticPageLayout from '../layouts/StaticPageLayout';
 
-export default function TermsOfUse() {
-  // ✅ Gọi trực tiếp content từ termsOfUseContent (không còn siteData)
-  const content = termsOfUseContent;
+const TermsOfUse = () => {
+  return <StaticPageLayout pageType="terms" />;
+};
 
-  return (
-    <StaticPage
-      title={content.title}
-      effectiveDate={content.effectiveDate}
-      welcome={content.welcome}
-      sections={content.sections}
-    />
-  );
-}
+export default TermsOfUse;

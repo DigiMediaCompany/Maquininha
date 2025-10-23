@@ -1,12 +1,8 @@
-import React from "react";
-import StaticPage from "../components/StaticPage";
-import { aboutContent } from "../data/siteData";
+import React from 'react';
+import StaticPageLayout from '../layouts/StaticPageLayout';
 
-export default function About() {
-  return (
-    <StaticPage
-      title={aboutContent.title}
-      sections={aboutContent.sections}
-    />
-  );
-}
+const About = () => {
+  return <StaticPageLayout pageType="about" />;
+};
+
+export default About;

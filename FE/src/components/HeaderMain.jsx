@@ -9,7 +9,7 @@ export default function HeaderMain() {
     { label: "Trang chủ", to: "/" },
     { label: "Máy so sánh", to: "/machines" },
     { label: "Trình mô phỏng", to: "/simulator" },
-    { label: "Giới thiệu", to: "/sobre" },
+    { label: "Giới thiệu", to: "/about" },
     { label: "Liên hệ", to: "/contact" },
   ];
 

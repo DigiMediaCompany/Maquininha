@@ -209,6 +209,19 @@ export const termsOfUseContent = {
 
 export const simulatorContent = {
   title: "Trình mô phỏng",
-  description:
-    "Công cụ này giúp bạn mô phỏng tỷ giá và phí cho máy thẻ dựa trên số lượng và tỷ giá nhập vào."
+  description: "Công cụ này giúp bạn mô phỏng tỷ giá và phí cho máy thẻ dựa trên số lượng và tỷ giá nhập vào.",
+  sections: [
+    {
+      paragraph: "Sử dụng trình mô phỏng dưới đây để tính toán chi phí thực tế của các máy thẻ dựa trên doanh thu hàng tháng của bạn."
+    },
+    {
+      heading: "Cách sử dụng",
+      list: [
+        "Nhập doanh thu hàng tháng của bạn (R$)",
+        "Chọn loại máy thẻ bạn quan tâm",
+        "Xem ngay kết quả so sánh phí và tỷ giá",
+        "Chọn máy thẻ có chi phí thấp nhất cho doanh nghiệp của bạn"
+      ]
+    }
+  ]
 };
